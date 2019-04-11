@@ -1,0 +1,1 @@
+1.利用xp_cmdshell
