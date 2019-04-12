@@ -65,7 +65,7 @@ chmod +x ew_for_linux
 `./ew_for_linux -s ssocksd -l 1080`
 **附上终端设置socks代理的配置**
 ```
-#安装proxych
+# 安装proxychains  kali自带 
 cd /usr/local/src
 git clone https://github.com/rofl0r/proxychains-ng.git
 cd proxychains-ng 
@@ -73,5 +73,6 @@ cd proxychains-ng
 make && make install
 make install-config
 cd .. && rm -rf proxychains-ng
+# 配置 
 ```
 ### 反向代理
