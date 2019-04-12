@@ -3,28 +3,16 @@
 修改sshd_config文件，命令为：
 vi /etc/ssh/sshd_config
 
-将#PasswordAuthentication no的注释去掉，并且将NO修改为YES //kali中默认是yes
+#PasswordAuthentication no的注释去掉，并且将NO修改为YES //kali中默认是yes
+PermitRootLogin without-password修改为PermitRootLogin yes
 
-
-
-将PermitRootLogin without-password修改为PermitRootLogin yes
-
-
-
-然后保存退出vi编辑器。
-
-
-
-二、启动SSH服务
-
-命令为：/etc/init.d/ssh start 
-
+开启服务
+/etc/init.d/ssh start 
 或者service ssh start
 
-
+查看服务状态
 /etc/init.d/ssh status
-或者
-service ssh status
+或者service ssh status
 
 
 update-rc.d ssh enable  //系统自动启动SSH服务
