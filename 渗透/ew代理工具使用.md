@@ -57,6 +57,9 @@ chmod +x ew_for_linux
 ` ./ew_for_linux -s lcx_listen -l  8888   -e 8889`
 
 
+# 直接测试socks代理吧还是
 
 ## 打开正向socks V5代理(好像多了一种用工作室的网的方式)
 ./ew_for_linux -s ssocksd -l 1080
+
+## 打开
