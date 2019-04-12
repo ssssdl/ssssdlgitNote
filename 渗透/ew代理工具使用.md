@@ -12,9 +12,9 @@ VERSION : free 1.0
  lcx_listen , lcx_tran , lcx_slave
  # -s 选项选择连接模式，除了lcx的三种模式还有ssocksd正向SOCKS V5服务器、（rcsocks(公网监听转发主机)、rssocks（目标主机））反弹SOCKS V5服务器。
  -l listenport open a port for the service startup.#监听端口
- -d refhost set the reflection host address.#设置反射主机
- -e refport set the reflection port.
- -f connhost set the connect host address .
+ -d refhost set the reflection host address.#设置反射主机地址（公网IP）
+ -e refport set the reflection port.#设置转发到的端口
+ -f connhost set the connect host address .#
  -g connport set the connect port.
  -h help show the help text, By adding the -s parameter,
  you can also see the more detailed help.
