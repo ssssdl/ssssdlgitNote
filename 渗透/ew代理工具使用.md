@@ -15,7 +15,7 @@ VERSION : free 1.0
  -d refhost set the reflection host address.#设置反射主机地址（公网IP）
  -e refport set the reflection port.#设置转发到的端口
  -f connhost set the connect host address .#设置连接主机地址（参考lcx的h2）要把这台内网主机的流量转发到公网上
- -g connport set the connect port.#
+ -g connport set the connect port.#设
  -h help show the help text, By adding the -s parameter,
  you can also see the more detailed help.
  -a about show the about pages
