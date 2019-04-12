@@ -19,8 +19,8 @@ VERSION : free 1.0
  -h help show the help text, By adding the -s parameter,
  you can also see the more detailed help.# 可以使用 ./ew -s [ssocksd|rcsocks|rssocks|lcx_listen|lcx_tran|lcx_slave]等获取关于具体模式的帮助
  -a about show the about pages # 显示关于
- -v version show the version. 
+ -v version show the version. #显示版本
  -t usectime set the milliseconds for timeout. The default 
- value is 1000 
+ value is 1000 #忙猜设置超时时间
  ......
 ```
