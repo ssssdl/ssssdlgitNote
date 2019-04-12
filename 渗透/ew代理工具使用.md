@@ -1,6 +1,5 @@
-# ew代理工具使用
 
-## - -help 
+# - -help 
 ```
 VERSION : free 1.0 
  ./xxx ([-options] [values])*
@@ -21,6 +20,8 @@ VERSION : free 1.0
  -a about show the about pages # 显示关于
  -v version show the version. #显示版本
  -t usectime set the milliseconds for timeout. The default 
- value is 1000 #忙猜设置超时时间，默认1000  英语不好也可以
+ value is 1000 #忙猜设置超时时间，默认1000  英语不好也可以猜
  ......
 ```
+
+# 
