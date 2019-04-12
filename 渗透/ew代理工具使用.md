@@ -76,6 +76,8 @@ cd .. && rm -rf proxychains-ng
 # 配置 
 vi /etc/proxychains.conf
 socks5  120.xx.xx.xx 1080
-# 
+# 使用 命令前面加上proxychains
+proxychains nmap 10.203.87.61
 ```
+
 ### 反向代理
