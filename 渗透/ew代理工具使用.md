@@ -63,5 +63,15 @@ chmod +x ew_for_linux
 
 ### 打开正向socks V5代理(好像多了一种用工作室的网的方式)
 `./ew_for_linux -s ssocksd -l 1080`
-**fuah**
+**附上终端设置socks代理的配置**
+```
+#安装proxych
+cd /usr/local/src
+git clone https://github.com/rofl0r/proxychains-ng.git
+cd proxychains-ng 
+./configure --prefix=/usr --sysconfdir=/etc
+make && make install
+make install-config
+cd .. && rm -rf proxychains-ng
+```
 ### 反向代理
