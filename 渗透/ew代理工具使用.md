@@ -57,3 +57,6 @@ chmod +x ew_for_linux
 ` ./ew_for_linux -s lcx_listen -l  8888   -e 8889`
 
 
+
+## 打开正向socks V5代理
+./ew——for -s ssocksd -l 1080
