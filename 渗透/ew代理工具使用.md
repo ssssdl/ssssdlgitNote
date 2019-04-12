@@ -74,5 +74,7 @@ make && make install
 make install-config
 cd .. && rm -rf proxychains-ng
 # 配置 
+vi /etc/proxychains.conf
+socks5  120.xx.xx.xx 1080
 ```
 ### 反向代理
