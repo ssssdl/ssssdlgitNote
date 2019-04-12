@@ -1,4 +1,5 @@
 ## 真是已经成了老年人什么都想记一下
+# 打开ssh
 ```
 修改sshd_config文件，命令为：
 vi /etc/ssh/sshd_config
@@ -23,16 +24,13 @@ update-rc.d ssh disabled // 关闭系统自动启动SSH服务
 #ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key
 ```
 
-关闭防火墙
+# 关闭防火墙
 ```
 kali关闭iptables
 安装
-
 apt-get install ufw
 关闭
-
 ufw disable # To disable the firewall
 开启
-
 ufw enable # To enable the firewall
 ```
