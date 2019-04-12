@@ -17,8 +17,8 @@ VERSION : free 1.0
  -f connhost set the connect host address .#设置连接主机地址（参考lcx的h2）要把这台内网主机的流量转发到公网上
  -g connport set the connect port.#设置要转发出去的端口（参考lcx的p2）
  -h help show the help text, By adding the -s parameter,
- you can also see the more detailed help.# 可以使用 ./ew -s [ssocksd|rcsocks|rssocks|lcx_listen|lcx_tran|]
- -a about show the about pages
+ you can also see the more detailed help.# 可以使用 ./ew -s [ssocksd|rcsocks|rssocks|lcx_listen|lcx_tran|lcx_slave]等获取关于具体模式的帮助
+ -a about show the about pages # 显示关于
  -v version show the version. 
  -t usectime set the milliseconds for timeout. The default 
  value is 1000 
