@@ -10,7 +10,7 @@ VERSION : free 1.0
  following options:
  ssocksd , rcsocks , rssocks , 
  lcx_listen , lcx_tran , lcx_slave
- # -s 选项选择连接模式，除了lcx的三种模式还有ssocksd正向SOCKS V5服务器、（rcsocks、rssocks）反弹SOCKS V5服务器、
+ # -s 选项选择连接模式，除了lcx的三种模式还有ssocksd正向SOCKS V5服务器、（rcsocks(公网主机)、rssocks）反弹SOCKS V5服务器、
  -l listenport open a port for the service startup.
  -d refhost set the reflection host address.
  -e refport set the reflection port.
