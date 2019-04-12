@@ -82,3 +82,5 @@ proxychains nmap 10.203.87.61
 
 ### 反向代理
 - 现在公网服务器上
+	`./ew_for_Linux32 -s rcsocks -l 1081 -e 8889`
+> 1081就是
