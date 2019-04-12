@@ -14,7 +14,7 @@ VERSION : free 1.0
  -l listenport open a port for the service startup.#监听端口
  -d refhost set the reflection host address.#设置反射主机地址（公网IP）
  -e refport set the reflection port.#设置转发到的端口
- -f connhost set the connect host address .#设置连接主机地址
+ -f connhost set the connect host address .#设置连接主机地址（参考lcx的）
  -g connport set the connect port.
  -h help show the help text, By adding the -s parameter,
  you can also see the more detailed help.
