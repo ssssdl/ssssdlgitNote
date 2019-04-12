@@ -32,4 +32,4 @@ VERSION : free 1.0
 
 利用命令执行弹shell
 
-这次用NC弹
+这次用NC弹shell
