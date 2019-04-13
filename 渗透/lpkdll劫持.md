@@ -1,3 +1,3 @@
 # dll劫持
 原理：Windows执行exe的时候会调用lpk.dll这个库，默认调用exe所在目录下的lpk.dll然后就上传lpk.dll到含有会经常执行的exe所在的文件夹，然后当执行这个软件的时候就会运行上传的dll，然后这个dll就会上传shift后门，但是shift后门已经有点不适用了
-- 
+- Windows从win8开始就默认使用网络级别的验证，就是说输入用户名密码不再是
