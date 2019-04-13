@@ -16,6 +16,7 @@
 公网上
 ./ew_for_Linux32 -s rcsocks -l 1081 -e 8889 
 win7上
-./ew_for_Win.exe -s rssocks -d 45.*.*.190 -e 8889
+ew_for_Win.exe -s rssocks -d 45.*.*.190 -e 8889
+xp上
 Proxifie
 ```
