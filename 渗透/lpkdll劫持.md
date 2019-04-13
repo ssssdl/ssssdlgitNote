@@ -20,3 +20,5 @@ ew_for_Win.exe -s rssocks -d 45.*.*.190 -e 8889
 xp上
 Proxifie
 ```
+
+没电了 明天再做
