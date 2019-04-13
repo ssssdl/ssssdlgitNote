@@ -13,7 +13,9 @@
 # 代理先练一下代理
 还是使用ew socks代理,再熟悉一下明天再用别的
 ```
-win7上
+公网上
 
+win7上
+./ew_for_Win.exe -s rssocks -d 45.*.*.190 -e 8889
 Proxifie
 ```
