@@ -18,6 +18,5 @@
 win7上
 ew_for_Win.exe -s rssocks -d 45.*.*.190 -e 8889
 xp上
-Proxifie
+Proxifie直接配置
 ```
-
