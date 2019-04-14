@@ -53,7 +53,7 @@ chmod +x ew_for_linux
 ```
 > 解决方案到肉鸡上：yum install glibc.i686，那么如果肉鸡上没有安装权限可能就要换工具了
 
-### 公网服务器监听端口转发8888
+### 公网服务器监听端口转发
 `./ew_for_Linux32 -s lcx_listen -l 443 -e 2222`
 
 
