@@ -18,5 +18,7 @@
 win7上
 ew_for_Win.exe -s rssocks -d 45.*.*.190 -e 8889
 xp上
-Proxifie直接配置
+Proxifie直接配置全局代理
 ```
+
+# 上传lpk
