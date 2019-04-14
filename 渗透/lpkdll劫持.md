@@ -23,7 +23,7 @@ Proxifie直接配置全局代理
 有点不稳 还是来一把端口转发吧
 ```
 ew_for_Linux32.exe -s lcx_slave -d 45.*.*.190 -e 2222 -f 127.0.0.1 -g 3389
-#发现一个
+#发现一个窍门  这个参数排序是defg  和字母顺序一样  监听的e和上面的e端口一样
 ew_for_Linux32 -s lcx_listen -l 3389 -e 2222
 ```
 
