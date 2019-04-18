@@ -24,4 +24,4 @@ Connection: keep-alive
 Cookie: O0oqZrypyswqadmin=104918af865ae8146284b36ed2c5c907
 Upgrade-Insecure-Requests: 1
 ```
-可以写个脚本用
+可以写个脚本用bs4加requests、urllib包写一个注入脚本
