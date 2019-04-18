@@ -24,7 +24,6 @@ Connection: keep-alive
 Cookie: O0oqZrypyswqadmin=104918af865ae8146284b36ed2c5c907
 Upgrade-Insecure-Requests: 1
 ```
-
 HTTP/1.1 200 OK
 Content-Type: text/html
 Server: Microsoft-IIS/7.5
