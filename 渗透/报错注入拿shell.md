@@ -25,3 +25,10 @@ Cookie: O0oqZrypyswqadmin=104918af865ae8146284b36ed2c5c907
 Upgrade-Insecure-Requests: 1
 ```
 可以写个脚本用bs4加requests、urllib包写一个注入脚本
+[python3爬虫获取html内容及各属性值](https://blog.csdn.net/lzq520210/article/details/76855606)
+
+但是本次以注入拿shell为主就不写了。
+
+那么怎么拿shell呢
+
+
