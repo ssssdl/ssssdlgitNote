@@ -5,10 +5,11 @@
 环境
 - Windows server2008
 - IIS7+php5+mysql5.0.22
-- Hong cms 3.0.0后台注入
+- Hong cms 3.0.0后台报错注入
 
 # 0x02 注入payload
 
+实际遇到可能要先爆破管理员密码。。。。
 参考[Hongcms 3.0.0后台SQL注入漏洞分析](https://www.freebuf.com/vuls/178316.html)和[十种MySQL报错注入](https://blog.csdn.net/whatday/article/details/63683187)  
 采用报错注入，因为mysql5.0没有updatexml函数，所以使用floor、group by和count函数的冲突进行报错注入。
 ```
