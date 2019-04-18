@@ -5,7 +5,7 @@
 环境
 - Windows server2008
 - IIS7+php5+mysql5.0.22
-- Hong cms 3.0.0
+- Hong cms 3.0.0后台注入
 
 # 0x02 注入payload
 
