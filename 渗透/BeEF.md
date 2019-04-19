@@ -21,8 +21,8 @@ enable true
 service postgresql start
 service metasploit start
 ```
-启动msf
+启动msf,
 ```
 msfconsole
-load msgrpc ServerHost=127.0.0.1 user=beef p
+load msgrpc ServerHost=127.0.0.1 User=beef Pass=beef SSL=y
 ```
