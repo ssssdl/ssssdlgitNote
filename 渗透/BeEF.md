@@ -21,3 +21,8 @@ enable true
 service postgresql start
 service metasploit start
 ```
+启动msf
+```
+msfconsole
+lo
+```
