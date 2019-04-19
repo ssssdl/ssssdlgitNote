@@ -31,3 +31,5 @@ load msgrpc ServerHost=127.0.0.1 User=beef Pass=beef SSL=y
 /usr/share/beef-xss/beef
 ```
 # 关于url
+beef默认管理界面：http://127.0.0.1:3000/ui/panel
+beef攻击js：
