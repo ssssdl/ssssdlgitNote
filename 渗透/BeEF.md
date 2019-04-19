@@ -15,3 +15,9 @@ enable true
 ```
 修改默认管理员密码 /etc/beef-xss/config.yaml 默认beef beef
 
+# 启动beef+msf
+启动相关服务
+```
+service postgresql start
+service metasploit start
+```
