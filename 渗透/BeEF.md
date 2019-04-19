@@ -30,3 +30,4 @@ load msgrpc ServerHost=127.0.0.1 User=beef Pass=beef SSL=y
 ```
 /usr/share/beef-xss/beef
 ```
+# 关于url
