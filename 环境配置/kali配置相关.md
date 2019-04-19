@@ -12,7 +12,7 @@ tar -zxvf VMwareTools-10.3.2-9925305.tar.gz
 cd vmware-tools-distrib/
 # 安装
 ./vmware-install.pl 
-
+# 然后根据需要配置（下一步）就行了
 ```
 
 # 更新
