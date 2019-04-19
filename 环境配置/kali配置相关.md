@@ -2,9 +2,8 @@
 ```
 # 查看光盘驱动器的名字
 ls -l /dev | grep cdrom
-mount /dev/cdrom1 /mnt/
+# 如果光盘驱动器名字为cdrom，挂载命令如下
 mount /dev/cdrom /mnt/
-
 ```
 
 # 更新
