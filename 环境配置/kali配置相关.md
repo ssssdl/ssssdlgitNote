@@ -16,3 +16,12 @@ cd vmware-tools-distrib/
 ```
 
 # 更新
+```
+# 换源
+vi /etc/apt/sources.list
+
+
+apt-get update
+apt-get dist-upgrade
+# 
+```
