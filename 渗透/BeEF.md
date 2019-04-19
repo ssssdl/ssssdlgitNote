@@ -13,3 +13,5 @@ enable true
 	ssl: true
 	ssl_version: 'TLSv1'
 ```
+修改默认管理员密码 /etc/beef-xss/config.yaml 默认beef beef
+
