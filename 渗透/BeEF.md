@@ -32,4 +32,5 @@ load msgrpc ServerHost=127.0.0.1 User=beef Pass=beef SSL=y
 ```
 # 关于url
 beef默认管理界面：http://127.0.0.1:3000/ui/panel
-beef攻击js：
+beef攻击js：http://127.0.0.1:3000/hook.js
+beef demo测试界面：http://127.0.0.1:3000/hook.js
