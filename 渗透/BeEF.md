@@ -4,4 +4,4 @@
 metasploit:
 	enable: ture
 ```
-修改
+修改 /usr/share/beef-xss/extensions/demos/config.yaml
