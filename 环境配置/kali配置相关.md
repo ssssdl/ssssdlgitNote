@@ -40,12 +40,12 @@ vi /etc/apt/sources.list
      deb http://mirrors.neusoft.edu.cn/kali kali-rolling/main non-free contrib
      deb-src http://mirrors.neusoft.edu.cn/kali kali-rolling/main non-free contrib
 
-
+# 安装更新（有可能需要--fix-missing参数）
 apt-get clean //清除缓存索引
 apt-get update //更新索引文件
 apt-get dist-upgrade //更新
+# 其他命令
 apt-get upgrade -y //更新实际的软件包文件
 apt-get dist-upgrade -y //根据依赖关系更新
-
 apt-get install kali-linux-all //安装所有kali工具包
 ```
