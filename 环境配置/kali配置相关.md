@@ -4,6 +4,15 @@
 ls -l /dev | grep cdrom
 # 如果光盘驱动器名字为cdrom，挂载命令如下
 mount /dev/cdrom /mnt/
+# 拷贝安装文件到根目录
+cp VMwareTools-10.3.2-9925305.tar.gz ~
+# 解压
+tar -zxvf VMwareTools-10.3.2-9925305.tar.gz 
+
+   18  cd vmware-tools-distrib/
+   19  ls
+   20  ./vmware-install.pl 
+
 ```
 
 # 更新
