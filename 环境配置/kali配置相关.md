@@ -8,10 +8,10 @@ mount /dev/cdrom /mnt/
 cp VMwareTools-10.3.2-9925305.tar.gz ~
 # 解压
 tar -zxvf VMwareTools-10.3.2-9925305.tar.gz 
-
-   18  cd vmware-tools-distrib/
-   19  ls
-   20  ./vmware-install.pl 
+# 切换目录
+cd vmware-tools-distrib/
+# 安装
+./vmware-install.pl 
 
 ```
 
