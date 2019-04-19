@@ -11,4 +11,5 @@ enable true
 修改 /usr/share/beef-xss/extensions/metasploit/config.yaml
 ```
 	ssl: true
+	ssl_version: 'TLSv1'
 ```
