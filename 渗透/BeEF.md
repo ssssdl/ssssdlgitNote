@@ -24,5 +24,5 @@ service metasploit start
 启动msf
 ```
 msfconsole
-lo
+load msgrpc ServerHost=127.0.0.1 user=beef p
 ```
