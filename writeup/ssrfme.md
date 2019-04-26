@@ -22,3 +22,5 @@
 > linux GET命令可用于向WWW服务器和本地文件系统发送请求。从stdin读取POST和PUT方法的请求内容。响应的内容打印在stdout上。错误消息打印在stderr上。程序返回一个状态值，指示失败的URL数。
 详情可以参考：https://www.lifewire.com/get-linux-command-4093526
 **注意这里面GET是可以GET本地文件的**
+而GET命令有一个特性：
+![title](https://i.loli.net/2019/04/26/5cc2f761b3aa3.jpg)
