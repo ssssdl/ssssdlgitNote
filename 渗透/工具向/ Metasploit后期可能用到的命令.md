@@ -35,3 +35,4 @@ migrate PID  	 迁移进程
 run post/windows/gather/checkvm  查看目标机器是不是再虚拟机上
 screengrab或者 screenshot 命令抓取截图
 ```
+
