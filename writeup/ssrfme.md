@@ -9,7 +9,7 @@
     @mkdir($sandbox);  //创建路径
     @chdir($sandbox);  //切换到这个路径
 
-    $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  // escapeshellarg是将字符转码成可以再命令行里面执行的
+    $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  // escapeshellarg是将字符转码成可以再命令行里面执行的 会转义单引号，只能传递一个参数不能
     $info = pathinfo($_GET["filename"]); //返回路径中有关信息会返回一个数组，里面有文件名，路径，文件后缀等等信息，比如/etc/httpd/conf/httpd.conf 返回的dirname里面就是/etc/httpd/conf
     $dir  = str_replace(".", "", basename($info["dirname"]));   //basename返回路径中文件名的部分 接着上面的例子  basename($info["dirname"])的结果就是conf
     @mkdir($dir); //创建路径
