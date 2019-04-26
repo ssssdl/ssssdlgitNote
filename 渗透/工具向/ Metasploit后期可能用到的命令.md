@@ -14,7 +14,7 @@ help
 
 常用的命令（以后用一条写一条）
 
- cd               --&gt;目录切换，命令：cd /  切换到根目录  
+ cd              目录切换，命令：cd /  切换到根目录  
 search           搜索文件，命令：search \*.jpg  
 download         下载文件，命令：download test.jpg  
 webcam_list      查看摄像头列表，因为手机都是前置和后置摄像头了  
@@ -28,7 +28,9 @@ dump_sms         下载通讯录
 geolocate        利用谷歌地图定位（需要安装谷歌地图）
 
 其他
-ps 		获取靶机正在运行的进程
-getpid 		查看msfshell的进程号
-migrate PID  	迁移进程
+sysinfo		 查看靶机系统信息
+ps 		 获取靶机正在运行的进程
+getpid 		 查看msfshell的进程号
+migrate PID  	 迁移进程
+
 ```
