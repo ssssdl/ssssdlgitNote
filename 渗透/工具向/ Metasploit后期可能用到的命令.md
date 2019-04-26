@@ -28,5 +28,7 @@ dump_sms         --&gt;下载通讯录
 geolocate        --&gt;利用谷歌地图定位（需要安装谷歌地图）
 
 其他
-ps 获取机正在运行的进程
+ps 获取靶机正在运行的进程
+getpid 查看msfshell的进程号
+
 ```
