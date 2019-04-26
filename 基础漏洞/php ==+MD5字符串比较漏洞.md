@@ -33,7 +33,7 @@
 
 执行结果如下：
 
-
+![title](https://i.loli.net/2019/04/26/5cc26420c004b.png)
 
 在附一个hackinglab的 **ctf**：
 
