@@ -36,3 +36,6 @@ run post/windows/gather/checkvm  查看目标机器是不是再虚拟机上
 screengrab或者 screenshot 命令抓取截图
 ```
 
+参考 
+- --help
+- [利用MSF进行后渗透攻击](https://www.jianshu.com/p/eb99b5b9b0c9)
