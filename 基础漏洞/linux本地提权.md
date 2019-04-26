@@ -54,6 +54,5 @@
 
 还可以有很多的exp查找方法
 [exploit-db](https://www.exploit-db.com/)
-kali下
+kali下searchsploit也可以差找exp
 
-然后编译运行就可以了，\(但是我还没成功\)
