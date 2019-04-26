@@ -1,8 +1,6 @@
 ---
-description: EWSA+pydictor
+主要工具 EWSA+pydictor
 ---
-
-# cap握手包破解wifi密码+字典生成
 
 ## 0x00 CTF
 
