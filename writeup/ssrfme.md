@@ -14,7 +14,7 @@
     $dir  = str_replace(".", "", basename($info["dirname"]));   //basename返回路径中文件名的部分 接着上面的例子  basename($info["dirname"])的结果就是conf
     @mkdir($dir); //创建路径
     @chdir($dir); //切换到路径
-    @file_put_contents(basename($info["basename"]), $data); 
+    @file_put_contents(basename($info["basename"]), $data); //将data写到basename($info["basename"])文件里面
     highlight_file(__FILE__); 
 ```
 
