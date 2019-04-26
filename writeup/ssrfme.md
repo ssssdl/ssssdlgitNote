@@ -6,10 +6,10 @@
 ```
 <?php 
     $sandbox = "sandbox/" . md5("orange" . $_SERVER["REMOTE_ADDR"]);   //定义一个路径
-    @mkdir($sandbox); 
-    @chdir($sandbox); 
+    @mkdir($sandbox);  //创建路径
+    @chdir($sandbox);  //切换到这个路径
 
-    $data = shell_exec("GET " . escapeshellarg($_GET["url"])); 
+    $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  
     $info = pathinfo($_GET["filename"]); 
     $dir  = str_replace(".", "", basename($info["dirname"])); 
     @mkdir($dir); 
