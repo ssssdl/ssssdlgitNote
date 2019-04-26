@@ -49,3 +49,4 @@ apt-get upgrade -y //更新实际的软件包文件
 apt-get dist-upgrade -y //根据依赖关系更新
 apt-get install kali-linux-all //安装所有kali工具包
 ```
+
