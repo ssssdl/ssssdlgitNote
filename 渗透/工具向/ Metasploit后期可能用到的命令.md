@@ -25,6 +25,8 @@ check_root       --&gt;查看当前安卓是否已经root
 dump_calllog     --&gt;下载通话记录  
 dump_contacts    --&gt;下载短信记录  
 dump_sms         --&gt;下载通讯录  
-  
-geolocate        --&gt;利用谷歌地图定位（需要安装谷歌地图）  
+geolocate        --&gt;利用谷歌地图定位（需要安装谷歌地图）
+
+其他
+ps 获取机正在运行的进程
 ```
