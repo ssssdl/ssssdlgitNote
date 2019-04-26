@@ -1,5 +1,5 @@
 ---
-description: 瑞士军刀
+除了渗透测试中的弹shell
 ---
 
 # netcat
