@@ -4,7 +4,7 @@
 
 附上大佬的实验代码：
 
-![](.gitbook/assets/image%20%2812%29.png)
+![title](https://i.loli.net/2019/04/26/5cc28a81a0c15.png)
 
 这两个漏洞参考：[https://www.waitalone.cn/php-sec-bugs.html](https://www.waitalone.cn/php-sec-bugs.html)
 
