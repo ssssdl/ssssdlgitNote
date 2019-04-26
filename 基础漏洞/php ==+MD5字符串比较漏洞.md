@@ -33,7 +33,7 @@
 
 执行结果如下：
 
-![](.gitbook/assets/image%20%2811%29.png)
+
 
 在附一个hackinglab的 **ctf**：
 
