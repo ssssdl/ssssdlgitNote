@@ -17,7 +17,7 @@
     @file_put_contents(basename($info["basename"]), $data); //将data写到basename($info["basename"])文件里面
     highlight_file(__FILE__); 
 ```
-测试上传写php一句话无效，
+测试上传写php一句话无效，上传的目录里面根本不解析php
 
 相关知识点：
 > linux GET命令可用于向WWW服务器和本地文件系统发送请求。从stdin读取POST和PUT方法的请求内容。响应的内容打印在stdout上。错误消息打印在stderr上。程序返回一个状态值，指示失败的URL数。
@@ -29,4 +29,4 @@
 
 # 解题思路 
 使用写入名为`xx|`的bash脚本，利用GET命令的命令执行来执行脚本payload如下：
-http://117.50.3.97:8004/sandbox/0f2b4d5fa91eb13350f6f37360f52657/
+
