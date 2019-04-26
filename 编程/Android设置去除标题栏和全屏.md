@@ -20,3 +20,11 @@
     </application>
 </manifest>
 ```
+# 通过写style文件全屏
+文件路径.\app\src\main\res\values\styles.xml
+添加如下代码，在 AndroidManifest.xml中应用这个style就行了
+```
+<style name="FullScreenTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <item name="android:windowFullscreen">true</item>
+</style>
+```
