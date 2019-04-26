@@ -9,4 +9,4 @@
 
 更多用法参考readme和[https://landgrey.github.io/pydictor/docs/doc/usage.html](https://landgrey.github.io/pydictor/docs/doc/usage.html)
 
-除此之外还有很多
+除此之外还有很多软件可以生成字典  木头字典
