@@ -18,6 +18,7 @@
     highlight_file(__FILE__); 
 ```
 
-解题思路：
- $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  这里面可定存在命令执行
+相关知识点：
+linux GET命令可用于向WWW服务器和本地文件系统发送请求。从stdin读取POST和PUT方法的请求内容。响应的内容打印在stdout上。错误消息打印在stderr上。程序返回一个状态值，指示失败的URL数。
+详情可以参考
 
