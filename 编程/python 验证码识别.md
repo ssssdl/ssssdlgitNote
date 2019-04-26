@@ -9,7 +9,7 @@
 利用python将图片化为灰度图（只有黑白两色），根据颜色将图片化为01值，然后用  pytesseract 模块识别，这个模块Windows下需要安装tesseract支持。
 
 ---
-0x02 环境搭建
+# 0x02 环境搭建
 我使用的是Windows,
 
 安装需要的库
@@ -28,12 +28,14 @@ pip install pytesseract
 
 找到如下文件：
 
-c:/Users/xxxx/AppData/Local/Programs/Python/Python37/Lib/site-packages/pytesseract/pytesseract.py
+`c:/Users/xxxx/AppData/Local/Programs/Python/Python37/Lib/site-packages/pytesseract/pytesseract.py`
 
 大概在第25行左右：
 
-tesseract_cmd = 'tesseract'
+`tesseract_cmd = 'tesseract'`
 
 改为tesseract.exe的路径
 
-tesseract_cmd = 'D:/tesseract/Tesseract-OCR/tesseract.exe'
+`tesseract_cmd = 'D:/tesseract/Tesseract-OCR/tesseract.exe'`
+
+使用
