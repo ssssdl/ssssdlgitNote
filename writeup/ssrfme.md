@@ -18,4 +18,5 @@
     highlight_file(__FILE__); 
 ```
 
-
+解题思路：
+ $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  这里面可定
