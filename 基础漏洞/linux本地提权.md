@@ -52,6 +52,8 @@
 
 [https://github.com/SecWiki/linux-kernel-exploits](https://github.com/SecWiki/linux-kernel-exploits)
 
-
+还可以有很多的exp查找方法
+[exploit-db](https://www.exploit-db.com/)
+kali下
 
 然后编译运行就可以了，\(但是我还没成功\)
