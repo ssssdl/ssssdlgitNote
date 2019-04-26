@@ -9,7 +9,7 @@
     @mkdir($sandbox);  //创建路径
     @chdir($sandbox);  //切换到这个路径
 
-    $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  // escapeshellarg是将字符转码成
+    $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  // escapeshellarg是将字符转码成可以再命令行里面执行的
     $info = pathinfo($_GET["filename"]); 
     $dir  = str_replace(".", "", basename($info["dirname"])); 
     @mkdir($dir); 
