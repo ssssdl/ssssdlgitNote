@@ -24,4 +24,4 @@
 **注意这里面GET是可以GET本地文件的**
 而GET命令有一个命令执行的漏洞：
 ![title](https://i.loli.net/2019/04/26/5cc2f761b3aa3.jpg)
-[GET的命令执行漏洞](https://err0rzz.github.io/2017/11/14/GET%E7%9A%84%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/) 这个博客里面做了比较详细的分析，是因为
+[GET的命令执行漏洞](https://err0rzz.github.io/2017/11/14/GET%E7%9A%84%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/) 这个博客里面做了比较详细的分析，是因为perl的open可以执行命令 而GET命令刚好使用了这个函数
