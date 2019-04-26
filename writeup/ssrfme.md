@@ -19,4 +19,5 @@
 ```
 
 解题思路：
- $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  这里面可定
+ $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  这里面可定存在命令执行
+
