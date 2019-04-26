@@ -119,3 +119,5 @@ for i in range(100,1000):
 ```
 
 验证码识别还可以用PKAV HTTP Fuzzer
+
+https://blog.up3.top/2017/06/08/PKAV%20HTTP%20Fuzzer%201.5.6%203.21%E6%9B%B4%E6%96%B0/
