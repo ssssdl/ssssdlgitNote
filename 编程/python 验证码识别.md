@@ -1,12 +1,14 @@
-用tesseract识别验证码
-​
+---
+利用tesseract识别验证码
+​---
 
-0x00 问题来源 
-问题来源于于一道ctf，http://lab1.xseclab.com/vcode7_f7947d56f22133dbc85dda4f28530268/index.php​
+# 0x00 问题来源 
+> 问题来源于于一道ctf，http://lab1.xseclab.com/vcode7_f7947d56f22133dbc85dda4f28530268/index.php​
 
-0x01 基本原理
+# 0x01 基本原理
 利用python将图片化为灰度图（只有黑白两色），根据颜色将图片化为01值，然后用  pytesseract 模块识别，这个模块Windows下需要安装tesseract支持。
 
+---
 0x02 环境搭建
 我使用的是Windows,
 
