@@ -11,7 +11,7 @@
 
     $data = shell_exec("GET " . escapeshellarg($_GET["url"]));  // escapeshellarg是将字符转码成可以再命令行里面执行的
     $info = pathinfo($_GET["filename"]); 
-    $dir  = str_replace(".", "", basename($info["dirname"])); 
+    $dir  = str_replace(".", "", basename($info["dirname"]));   //basename返回路径中文件名的部分
     @mkdir($dir); 
     @chdir($dir); 
     @file_put_contents(basename($info["basename"]), $data); 
