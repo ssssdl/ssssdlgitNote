@@ -17,5 +17,6 @@ pip install flask-login
 - 安装virtualenv
 	> 下载 [virtualenv](https://github.com/pypa/virtualenv/tree/master) 然后切换到这个目录下执行`python setup.py install`
 - 创建虚拟环境
+	> 找到一个目录执行`virtualenv p3vir` p3vir是生成的目录的名字
 
 
