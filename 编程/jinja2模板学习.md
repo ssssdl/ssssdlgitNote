@@ -18,4 +18,15 @@ if __name__ == "__main__":
 ```
 
 # 显示变量
-创建html 
+创建比如user.html
+```
+<html>
+    <head>
+        <title>欢迎</title> 
+    </head>
+    <body>
+        <p>你的名字是{{name}}</p>
+    </body>
+
+</html>
+```
