@@ -61,4 +61,15 @@ pip install flask-login
 	> 新建一个工程文件夹。右键vs code打开，ctrl+shift+p，输入`python:select Interpreter` 然后先选上默认的python环境，这时会在目录下生成一个`.vscode/settings.json`的文件，编辑这个文件将python解析器换成p3vir/Scripts目录下的python.exe,就完事了
 
 # 测试
-在配置好
+在配置好setting.json的工程文件夹中新建一个hello.py 内容如下
+```
+from flask import Flask  
+app = Flask(__name__)  
+ 
+@app.route("/")  
+def hello():  
+    return "Hello World!"  
+  
+if __name__ == "__main__":  
+    app.run() 
+```
