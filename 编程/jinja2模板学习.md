@@ -60,4 +60,4 @@ if __name__ == "__main__":
 
 # 相关文档
 - [官方文档](http://jinja.pocoo.org/docs/2.9/templates/#filters)
-- [Jinja2 模板的学习](https://www.jianshu.com/p/8fc66b083ecdhttps://www.jianshu.com/p/8fc66b083ecdv)
+- [Jinja2 模板的学习](https://www.jianshu.com/p/8fc66b083ecd)
