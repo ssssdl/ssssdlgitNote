@@ -42,3 +42,5 @@ web.config:中添加
 ```
 Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.example.org third-party.org; child-src https:
 ```
+
+关于csp的语法
