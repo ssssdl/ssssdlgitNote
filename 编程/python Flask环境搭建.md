@@ -20,4 +20,7 @@ pip install flask-login
 	> 找到一个目录执行`virtualenv p3vir` p3vir是生成的目录的名字，完成后会在p3vir目录中出现Include、Lib、Scripts等文件夹 
 
 - 在虚拟环境中安装flask等模块
-	- xia
+	- 下载地址：
+		- [flask](https://github.com/mitsuhiko/flask)
+		- []()
+		- []()
