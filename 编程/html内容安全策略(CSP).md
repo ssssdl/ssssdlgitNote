@@ -59,4 +59,7 @@ Header set Content-Security-Policy "default-src 'self';"
 - 到页面中加载远程脚本
 <sCRiPt sRC=https://xss.pt/XUXdj></sCrIpT>
 - 然后这时浏览器就会报错
- 比如chrome
+ 比如chrome：
+```
+Refused to load the script 'https://xss.pt/XUXF' because it violates the following Content Security Policy http://hhhhhh.com directive: "default-src 'self'". Note that 'script-src-elem' was not explicitly set, so 'default-src' is used as a fallback.
+```
