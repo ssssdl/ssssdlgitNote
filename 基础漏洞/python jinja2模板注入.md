@@ -44,4 +44,4 @@ if __name__ == "__main__":
 # 相关文档
 - 掘金[Flask jinja2模板注入思路总结](https://juejin.im/entry/5a91040ef265da4e9268410ehttps://juejin.im/entry/5a91040ef265da4e9268410e)
 - Freebuf[探索Flask/Jinja2中的服务端模版注入](https://www.freebuf.com/articles/web/98619.html)
-- csdn[](https://blog.csdn.net/nameix/article/details/54341949)
+- csdn[内置函数+内置变量+内置模块](https://blog.csdn.net/nameix/article/details/54341949)
