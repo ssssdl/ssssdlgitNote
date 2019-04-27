@@ -38,7 +38,7 @@ web.config:中添加
 
 </system.webServer>
 ```
-这样respon
+这样response 头里面就会有Content-Security-Policy: 标签
 ```
 Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.example.org third-party.org; child-src https:
 ```
