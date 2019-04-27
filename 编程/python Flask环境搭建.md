@@ -22,5 +22,7 @@ pip install flask-login
 - 在虚拟环境中安装flask等模块
 	- 下载地址：
 		- [flask](https://github.com/mitsuhiko/flask)
-		- []()
-		- []()
+		- [jinja2](https://github.com/mitsuhiko/jinja2)
+		- [werkzeug](https://github.com/mitsuhiko/werkzeug)
+	- 安装方法
+		> 三个包安装
