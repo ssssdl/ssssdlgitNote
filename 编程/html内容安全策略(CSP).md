@@ -5,5 +5,9 @@
 
 # 相关配置
 两种
-- 直接在html页面中添加
-- 配置服务器，使
+## 直接在html页面中添加
+示例：
+```
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">
+```
+## 配置服务器，使其在响应头添加
