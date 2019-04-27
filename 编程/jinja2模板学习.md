@@ -27,6 +27,5 @@ if __name__ == "__main__":
     <body>
         <p>你的名字是{{name}}</p>
     </body>
-
 </html>
 ```
