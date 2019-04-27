@@ -22,6 +22,8 @@ if __name__ == "__main__":
 
 ```
 就是把url user后面的name输出出来
-> 注意这里面如果使用render_template带入html模板的话就不会产生这个问题，或者
+> 注意这里面如果使用render_template带入html模板的话就不会产生这个问题，将html模板通过`{%% extends "layout.html" %%}`引入到python中也会出现这个问题
+
+
 
 
