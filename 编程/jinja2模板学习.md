@@ -50,4 +50,5 @@ if __name__ == "__main__":
 但是把{{name}}改成{{name|safe}}就会取消转义，然后经过构造还是会有xss
 
 除了safe还有很多其他的过滤器
-- 
+- safe 渲染值的时候不进行zhuany
+- trim 把
