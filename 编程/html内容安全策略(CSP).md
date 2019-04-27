@@ -55,5 +55,5 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 </VirtualHost>
 Header set Content-Security-Policy "default-src 'self';"
 ```
-重启apache服务，查看响应头是否
-- 
+重启apache服务，查看响应头是否含有Content-Security-Policy： default-src 'self';
+- 到页面中加载脚本
