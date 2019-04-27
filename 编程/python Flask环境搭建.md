@@ -25,4 +25,4 @@ pip install flask-login
 		- [jinja2](https://github.com/mitsuhiko/jinja2)
 		- [werkzeug](https://github.com/mitsuhiko/werkzeug)
 	- 安装方法
-		> 三个包安装方法相同，先解压，然后切换到解压出的目录中，先打开虚p3vir拟环境，``然后执行 `python setup.py install`
+		> 三个包安装方法相同，先解压，然后切换到解压出的目录中，先打开虚p3vir拟环境，`F:\flask\p3vir\Scripts\activate.bat` 然后执行 `python setup.py install`
