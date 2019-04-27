@@ -47,4 +47,7 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 这个好难，不想看，做个实验，吃完饭回来在再看
 
 # 测试
-- 配置
+- 配置虚拟主机
+```
+
+```
