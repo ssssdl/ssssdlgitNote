@@ -78,4 +78,4 @@ if __name__ == "__main__":
 
 # 相关文档
 - vscode 官方文档[Flask Tutorial in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-flask)
-- [](https://blog.csdn.net/Zhao_6666/article/details/78990002)
+- [Python Flask 开发环境搭建(Windows)](https://blog.csdn.net/Zhao_6666/article/details/78990002)
