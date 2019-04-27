@@ -40,3 +40,7 @@ if __name__ == "__main__":
 - 然后通过一个特殊的属性`__globals__`找到了当前函数所在命名空间下的所有变量
 `__globals__` *这个属性是python所有函数都包含的一个属性，调用这个属性会返回所在模块命名空间里面的所有变量*
 - 然后利用每个python都会加载builtins这个模块而这个模块中有eval、exec、open等函数，然后就构成了代码注入
+
+# 相关文档
+- 掘金[Flask jinja2模板注入思路总结](https://juejin.im/entry/5a91040ef265da4e9268410ehttps://juejin.im/entry/5a91040ef265da4e9268410e)
+- 
