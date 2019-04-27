@@ -2,6 +2,6 @@
 > 搭建flask，jinja2环境
 
 # 首先显示简单网页
-Flask默认在templates文件夹中加载模板所以在当前工程根目录建立一个templates文件夹并写入一个html
-
+Flask默认在templates文件夹中加载模板所以在当前工程根目录建立一个templates文件夹并写入一个html目录结构如下
+![title](https://i.loli.net/2019/04/27/5cc3c76de5749.png)
 
