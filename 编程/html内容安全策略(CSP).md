@@ -49,5 +49,10 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 # 测试
 - 配置虚拟主机
 ```
-
+<VirtualHost 12.12.12.12:80>
+  DocumentRoot "/var/www/ipv4"
+  ServerName    hhhhh.com
+</VirtualHost>
+Header set Content-Security-Policy "default-src 'self';"
 ```
+- 设置
