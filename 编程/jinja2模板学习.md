@@ -47,4 +47,4 @@ if __name__ == "__main__":
     app.run() 
 ```
 在访问http://127.0.0.1:5000/user/world就会显示world，经过测试会转义尖括号，应该没有XSS
-但是把{{name}}改成{{name|safe}}就会取消转义，然后经过
+但是把{{name}}改成{{name|safe}}就会取消转义，然后经过构造还是会有xss
