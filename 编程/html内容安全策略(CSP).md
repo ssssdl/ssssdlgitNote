@@ -44,3 +44,4 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 ```
 
 # 关于csp的语法（简单介绍）
+这个好难，不想看
