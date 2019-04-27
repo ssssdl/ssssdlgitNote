@@ -11,19 +11,19 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">
 ```
 ## 配置服务器，使其在响应头添加
-- Apache服务
+- Apache
 在VirtualHost的httpd.conf文件或者.htaccess文件中加入以下代码
-`
+```
 Header set Content-Security-Policy "default-src 'self';"
-
-Nginx
+```
+- Nginx
 在 server {}对象块中添加如下代码
-
+```
 add_header Content-Security-Policy "default-src 'self';";
-
-IIS 
+```
+- IIS 
 web.config:中添加
-
+```
 <system.webServer>
 
   <httpProtocol>
@@ -37,7 +37,8 @@ web.config:中添加
   </httpProtocol>
 
 </system.webServer>
-
+```
+这样respon
 ```
 Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.example.org third-party.org; child-src https:
 ```
