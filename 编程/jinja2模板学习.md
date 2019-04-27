@@ -56,3 +56,8 @@ if __name__ == "__main__":
 
 # 控制结构
 支持for if等控制结构，支持宏等很多功能，有很多验证性的东西
+
+
+# 相关文档
+- [官方文档](http://jinja.pocoo.org/docs/2.9/templates/#filters)
+- [](https://www.jianshu.com/p/8fc66b083ecdhttps://www.jianshu.com/p/8fc66b083ecdv)
