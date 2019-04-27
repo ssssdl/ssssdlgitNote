@@ -21,4 +21,4 @@ if __name__ == "__main__":
     app.run() 
 
 ```
-就是把url后面的name输出出来
+就是把url user后面的name输出出来
