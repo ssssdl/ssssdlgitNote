@@ -28,4 +28,4 @@ pip install flask-login
 		> 三个包安装方法相同，先解压，然后切换到解压出的目录中，先打开虚p3vir拟环境，`F:\flask\p3vir\Scripts\activate.bat` 这时命令标头会出现(p3vir)字样,然后执行 `python setup.py install`就会把当前模块安装到虚拟环境p3vir中，重复将上述三个模块都安装好就可以了
 
 - vs code里面配置虚拟环境解析python
-	> 新建一个工程文件夹。右键vs code打开，ctrl+shift+p
+	> 新建一个工程文件夹。右键vs code打开，ctrl+shift+p，输入`python:select `
