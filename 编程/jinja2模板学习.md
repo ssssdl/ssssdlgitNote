@@ -52,4 +52,4 @@ if __name__ == "__main__":
 除了safe还有很多其他的过滤器
 - safe 渲染值的时候不进行zhuany
 - trim 把值首尾的空格删除掉
-- striptags 渲染之前把
+- striptags 渲染之前把值中的所有HTML标签删除
