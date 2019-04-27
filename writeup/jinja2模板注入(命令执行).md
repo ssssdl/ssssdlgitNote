@@ -1,1 +1,1 @@
-jinja2模板是一个
+jinja2是一个类似php smart引擎的视图模板
