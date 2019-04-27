@@ -46,4 +46,4 @@ def user(name):
 if __name__ == "__main__":  
     app.run() 
 ```
-在访问http://127.0.0.1:5000/user/world就会
+在访问http://127.0.0.1:5000/user/world就会显示world
