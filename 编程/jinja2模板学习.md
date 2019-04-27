@@ -49,7 +49,7 @@ if __name__ == "__main__":
 在访问http://127.0.0.1:5000/user/world就会显示world，经过测试会转义尖括号，应该没有XSS
 但是把{{name}}改成{{name|safe}}就会取消转义，然后经过构造还是会有xss
 
-除了safe还有很多其他的过滤器 输出
+除了safe还有很多其他的过滤器 输出同一个变量可以通过管道符连接多个过滤器{{ name|striptags|title }}title(striptags(name))
 - safe 渲染值的时候不进行zhuany
 - trim 把值首尾的空格删除掉
 - striptags 渲染之前把值中的所有HTML标签删除
