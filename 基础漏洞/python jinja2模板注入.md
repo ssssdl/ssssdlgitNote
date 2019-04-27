@@ -35,4 +35,6 @@ if __name__ == "__main__":
 	{% endif %}
 {% endfor %}
 ```
-首先这个使用了一个循环和if的jinja2的结构找到了一个类warnings.catch_warnings
+- 首先这个使用了一个循环和if的jinja2的结构找到了一个内置的类catch_warnings，
+- 然后
+
