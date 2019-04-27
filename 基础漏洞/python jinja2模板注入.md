@@ -36,5 +36,5 @@ if __name__ == "__main__":
 {% endfor %}
 ```
 - 首先这个使用了一个循环和if的jinja2的结构找到了一个内置的类catch_warnings，
-- 然后
+- 然后通过一个特殊的属性`__globals__`找到了
 
