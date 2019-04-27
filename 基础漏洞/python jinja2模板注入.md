@@ -37,4 +37,4 @@ if __name__ == "__main__":
 ```
 - 首先这个使用了一个循环和if的jinja2的结构找到了一个内置的类catch_warnings，
 - 然后通过一个特殊的属性`__globals__`找到了当前类下的所有变量
-`__globals__` *这个*
+`__globals__` *这个属性是python所有函数都包含的一个属性，会返回*
