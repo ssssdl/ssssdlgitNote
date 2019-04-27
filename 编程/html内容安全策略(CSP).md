@@ -45,8 +45,7 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 
 # 关于csp的语法（简单介绍）
 ## 默认限制
-> 什么都不会
-
+> 什么都不会就直接上一个默认限制就行了
 # 测试
 - 配置虚拟主机
 ```
