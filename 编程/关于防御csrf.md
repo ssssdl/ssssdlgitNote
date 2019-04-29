@@ -5,4 +5,4 @@ csrf跨站请求伪造
 ---
 
 # 几种防御csrf的策略
-## 验证 HTTP Referer 字段（）
+## 验证 HTTP Referer 字段（感觉好像用处不大）
