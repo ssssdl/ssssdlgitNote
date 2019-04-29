@@ -57,7 +57,7 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 - `font-src` 字体文件
 - `object-src`插件（比如 Flash）
 - `child-src`框架
-- `frame-ancestors`嵌入的外部资源（比如<frame>、<iframe>、<embed>和<applet>）
+- `frame-ancestors`嵌入的外部资源（比如\<frame\>、\<iframe\>、\<embed\>和\<applet\>）
 - `connect-src`HTTP 连接（通过 XHR、WebSockets、EventSource等）
 - `worker-src` worker脚本
 - `manifest-src` manifest 文件
