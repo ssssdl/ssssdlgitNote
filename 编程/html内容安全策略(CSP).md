@@ -67,7 +67,7 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 - `form-action` 限制 `<form#action>`
 > 其他其他安全相关
 - `block-all-mixed-content`：HTTPS 网页不得加载 HTTP 资源（浏览器已经默认开启）
-- `upgrade-insecure-requests`：自动将网页上所有加载外部资源的 HTTP 链接换成 HTTPS 协议
+- `upgrade-insecure-requests`：自动将网页上所有加载外部资源的 HTTP 链接换成 HTTPS 协议 相关类似的还有[HTTP Strict Transport Security](https://developer.mozilla.org/zh-CN/docs/Security/HTTP_Strict_Transport_Securityv)
 - `plugin-types`：限制可以使用的插件格式
 - `sandbox`：浏览器行为的限制，比如不能有弹出窗口等。
 
