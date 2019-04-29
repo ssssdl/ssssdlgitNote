@@ -48,19 +48,21 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 ## 默认限制
 > 什么都不会就直接上一个默认限制就行了,例如`Content-Security-Policy: default-src 'self'`限制资源只能从本地加载，不管是js，还是图片，都只能从本地加载
 
-## 详细的资源加载限制
+## 详细的资源加载限制()
 > 可以对每种资源进行详细的加载限制
 - `script-src` 外部脚本加载限制
 - `style-src` 样式表
 - `img-src` 图像
 - `media-src` 音频视频的加载
-- `font-src`字体文件
+- `font-src` 字体文件
 - `object-src`插件（比如 Flash）
 - `child-src`框架
-- `frame-ancestors`嵌入的外部资源（比如<frame>、<iframe>、<embed>和<applet>）connect-src：HTTP 连接（通过 XHR、WebSockets、EventSource等）
+- `frame-ancestors`嵌入的外部资源（比如<frame>、<iframe>、<embed>和<applet>）
+- `connect-src`HTTP 连接（通过 XHR、WebSockets、EventSource等）
 - `worker-src` worker脚本
 - `manifest-src` manifest 文件
 
+## 
 # 测试
 - 配置虚拟主机
 ```
