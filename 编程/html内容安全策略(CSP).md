@@ -48,7 +48,7 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 ## 默认限制
 > 什么都不会就直接上一个默认限制就行了,例如`Content-Security-Policy: default-src 'self'`限制资源只能从本地加载，不管是js，还是图片，都只能从本地加载
 
-## 详细的资源加载限制()
+## 详细的资源加载限制(摘自知乎)
 > 可以对每种资源进行详细的加载限制
 - `script-src` 外部脚本加载限制
 - `style-src` 样式表
@@ -63,6 +63,7 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 - `manifest-src` manifest 文件
 
 ## 
+
 # 测试
 - 配置虚拟主机
 ```
