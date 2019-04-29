@@ -53,7 +53,8 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 - `script-src` 外部脚本加载限制
 - `style-src` 样式表
 - `img-src` 图像
-- `media-src` 
+- `media-src` 音频视频的加载
+- font-src 
 
 ##
 
