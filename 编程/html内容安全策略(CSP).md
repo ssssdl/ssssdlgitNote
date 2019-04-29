@@ -72,7 +72,7 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 - `sandbox`：浏览器行为的限制，比如不能有弹出窗口等。
 
 ## 将违例内容进行反馈报告
-
+> 需要在CSP规则中写明
 
 # 测试
 - 配置虚拟主机
