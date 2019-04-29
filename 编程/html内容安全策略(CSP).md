@@ -61,7 +61,8 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 - `connect-src`HTTP 连接（通过 XHR、WebSockets、EventSource等）
 - `worker-src` worker脚本
 - `manifest-src` manifest 文件
-
+- `frame-ancestors` 限制嵌入框架的网页
+- ··
 ## 
 
 # 测试
