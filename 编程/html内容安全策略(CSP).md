@@ -63,8 +63,9 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 - `manifest-src` manifest 文件
 - `frame-ancestors` 限制嵌入框架的网页
 - `base-uri` 限制 `<base#href>`
-- `form-act`
-## 
+- `form-action` 限制 `<form#action>`
+
+##  
 
 # 测试
 - 配置虚拟主机
