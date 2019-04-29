@@ -51,7 +51,9 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 ## 详细的资源加载限制
 > 可以对每种资源进行详细的加载限制
 - `script-src` 外部脚本加载限制
-- ``
+- `style-src` 样式表
+- `img-src` 图像
+- `media-src` 
 
 ##
 
