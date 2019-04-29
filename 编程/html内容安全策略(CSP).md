@@ -73,8 +73,25 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 
 ## 将违例内容进行反馈报告
 > 需要在CSP规则中写明report-uri策略，然后参数中有一个地址接收这些报告，报告格式是json
-大概写法事这个样子
-··
+大概写法事这个样子拿apache配置为例
+```
+
+```
+```
+{
+    "csp-report":{
+        "document-uri":"http://ipv4.ssssdl.xyz/",
+        "referrer":"",
+        "violated-directive":"script-src-elem",
+        "effective-directive":"script-src-elem",
+        "original-policy":"default-src 'self';report-uri http://45.76.101.190:7777",
+        "disposition":"enforce",
+        "blocked-uri":"https://xss.pt/XUXF",
+        "status-code":200,
+        "script-sample":""
+    }
+}
+```
 
 # 测试
 - 配置虚拟主机
