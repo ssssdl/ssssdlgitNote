@@ -61,9 +61,11 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 - `connect-src`HTTP 连接（通过 XHR、WebSockets、EventSource等）
 - `worker-src` worker脚本
 - `manifest-src` manifest 文件
+> url相关
 - `frame-ancestors` 限制嵌入框架的网页
 - `base-uri` 限制 `<base#href>`
 - `form-action` 限制 `<form#action>`
+> 
 
 ##  
 
