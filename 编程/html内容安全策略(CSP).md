@@ -77,7 +77,7 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 ```
 Header set Content-Security-Policy "default-src 'self';report-uri http://12.12.12.12:7777"
 ```
-返回的json
+返回的json大概如下：
 ```
 {
     "csp-report":{
@@ -111,3 +111,6 @@ Header set Content-Security-Policy "default-src 'self';"
 ```
 Refused to load the script 'https://xss.pt/XUXdj' because it violates the following Content Security Policy http://hhhhhh.com directive: "default-src 'self'". Note that 'script-src-elem' was not explicitly set, so 'default-src' is used as a fallback.
 ```
+
+相关文档：
+- 
