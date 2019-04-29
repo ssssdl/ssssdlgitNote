@@ -117,3 +117,4 @@ Refused to load the script 'https://xss.pt/XUXdj' because it violates the follow
 - [知乎-Content Security Policy (CSP) 是什么？为什么它能抵御 XSS 攻击？](https://www.zhihu.com/question/21979782)
 - [MDN_web_docs-HTTP Strict Transport Security](https://developer.mozilla.org/zh-CN/docs/Security/HTTP_Strict_Transport_Security)
 - [阮一峰-Content Security Policy 入门教程](http://www.ruanyifeng.com/blog/2016/09/csp.html)
+- [xi]
