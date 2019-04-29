@@ -48,7 +48,7 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 ## 默认限制
 > 什么都不会就直接上一个默认限制就行了,例如`Content-Security-Policy: default-src 'self'`限制资源只能从本地加载，不管是js，还是图片，都只能从本地加载
 
-## 详细的资源加载限制(摘自知乎)
+## 详细的资源加载限制(摘自[知乎](https://www.zhihu.com/question/21979782/answer/122682029))
 > 可以对每种资源进行详细的加载限制
 - `script-src` 外部脚本加载限制
 - `style-src` 样式表
@@ -66,6 +66,10 @@ Content-Security-Policy: script-src 'self'; object-src 'none';style-src cdn.exam
 - `base-uri` 限制 `<base#href>`
 - `form-action` 限制 `<form#action>`
 > 其他其他安全相关
+block-all-mixed-content：HTTPS 网页不得加载 HTTP 资源（浏览器已经默认开启）upgrade-insecure-requests：自动将网页上所有加载外部资源的 HTTP 链接换成 HTTPS 协议plugin-types：限制可以使用的插件格式sandbox：浏览器行为的限制，比如不能有弹出窗口等。
+
+作者：阿里聚安全
+链接：
 
 ##  
 
