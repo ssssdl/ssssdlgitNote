@@ -6,4 +6,4 @@ Myeclipse和IDEA破解越来越难，eclipse各种问题，感觉不如vscode直
 - vscode
 - java环境
 # vscode扩展安装
-- Java Extension Pack 里面包含了基本java开发需要的个包
+- Java Extension Pack 里面包含了基本java开发需要的五个插件Language Support for Java™ by Red Hat、
