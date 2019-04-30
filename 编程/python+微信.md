@@ -1,2 +1,2 @@
 - [通过itchat进行给好友发送消息](https://blog.csdn.net/idealcitier/article/details/78503743)
-- [](https://juejin.im/post/5cbc2b266fb9a0689b6ee360)
+- [当 Python 遇到了你的微信好友](https://juejin.im/post/5cbc2b266fb9a0689b6ee360)
