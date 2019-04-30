@@ -10,7 +10,7 @@ Myeclipse和IDEA破解越来越难，eclipse各种问题，感觉不如vscode直
 # windows环境准备
 - 安装Maven
 	- 下载地址[Welcome to Apache Maven](https://maven.apache.org/)
-	- 安装
+	- 安装：解压之后
 - 下载tomcat
 
 # vscode扩展安装
