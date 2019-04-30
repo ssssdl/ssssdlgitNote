@@ -26,6 +26,6 @@ csrf跨站请求伪造
 ---
 
 # 下面做一些示例
-* 磨练一下代码，以前一直是在myesclipse *
+* 以前一直是在Myeclipse，很多方面 *
 
 ## 验证Referer
