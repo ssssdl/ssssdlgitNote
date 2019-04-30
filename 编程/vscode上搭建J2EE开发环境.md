@@ -21,4 +21,4 @@ Myeclipse和IDEA破解越来越难，eclipse各种问题，感觉不如vscode直
 
 # 测试
 - 在资源管理器工作空间里面右键->从Maven原型生成->选择maven-archetype-webapp，然后选好目录，填上一些组id版本啥的信息就生成了项目
-- 打开项目文件夹，右键webapp然后
+- 打开项目文件夹，右键webapp然后选择run on tomcat server再
