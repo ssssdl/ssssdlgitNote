@@ -20,4 +20,4 @@ Myeclipse和IDEA破解越来越难，eclipse各种问题，感觉不如vscode直
 - Tomcat for Java 不太懂，因为之前用的myeclipse就是直接使用Tomcat，所以这个也是直接用这个吧，安装完成后会在资源管理器里面会多出一栏TOMCAT SERVERS，点击这一栏上的加号，选择刚才解压的tomcat目录(忘了是不是要选到bin目录了)
 
 # 测试
-- 在资源管理器工作空间里面右键->从Maven原型生成->选择maven-archetype-webapp，然后
+- 在资源管理器工作空间里面右键->从Maven原型生成->选择maven-archetype-webapp，然后选好目录，填上一些组id版本啥的信息就
