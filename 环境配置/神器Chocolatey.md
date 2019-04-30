@@ -1,2 +1,2 @@
 - [知乎-Windows统一开发环境的基础-Chocolatey](https://zhuanlan.zhihu.com/p/53421288v)
-- [GitHub-](https://github.com/chocolatey/choco)
+- [GitHub-choco](https://github.com/chocolatey/choco)
