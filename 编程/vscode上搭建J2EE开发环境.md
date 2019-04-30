@@ -4,5 +4,6 @@ Myeclipse和IDEA破解越来越难，eclipse各种问题，感觉不如vscode直
 # 准备
 - windows 10
 - vscode
-- java
+- java环境
 # vscode扩展安装
+- Java 
