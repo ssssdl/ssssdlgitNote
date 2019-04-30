@@ -6,4 +6,4 @@ Myeclipse和IDEA破解越来越难，eclipse各种问题，感觉不如vscode直
 - vscode
 - java环境
 # vscode扩展安装
-- Java 
+- Java Extension Pack
