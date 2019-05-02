@@ -13,7 +13,7 @@ USAGE: fcrackzip
           [-c|--charset characterset]   use characters from charset
           [-h|--help]                   show this message
           [--version]                   show the version of this program
-          [-V|--validate]               sanity-check the algortihm
+          [-V|--validate]               sanity-check the algortihm 理智检查
           [-v|--verbose]                be more verbose
           [-p|--init-password string]   use string as initial password/file 指定字典字符串，或文件
           [-l|--length min-max]         check password with length min to max
