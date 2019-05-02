@@ -31,5 +31,9 @@ methods compiled in (* = default):
 ```
 # 常见的命令
 ```
+# 使用字典爆破
 fcrackzip -D -p /usr/share/wordlists/rockyou.txt -u crack_this.zip
+# 爆破数字
+fcrackzip -b -c '1' -l 1-10 -u crack_this.zip 
+# 
 ```
