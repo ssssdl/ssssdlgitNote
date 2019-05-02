@@ -13,10 +13,10 @@ USAGE: fcrackzip
           [-c|--charset characterset]   use characters from charset
           [-h|--help]                   show this message
           [--version]                   show the version of this program
-          [-V|--validate]               sanity-check the algortihm 理智检查
+          [-V|--validate]               sanity-check the algortihm 理智检查 应该是和暴力破解相反的吧
           [-v|--verbose]                be more verbose
           [-p|--init-password string]   use string as initial password/file 指定字典字符串，或文件
-          [-l|--length min-max]         check password with length min to max
+          [-l|--length min-max]         check password with length min to max 
           [-u|--use-unzip]              use unzip to weed out wrong passwords
           [-m|--method num]             use method number "num" (see below)
           [-2|--modulo r/m]             only calculcate 1/m of the password
