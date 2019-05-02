@@ -35,5 +35,6 @@ methods compiled in (* = default):
 fcrackzip -D -p /usr/share/wordlists/rockyou.txt -u crack_this.zip
 # 爆破数字
 fcrackzip -b -c '1' -l 1-10 -u crack_this.zip 
-# 
+# 穷举法
+fcrackzip -b -c 'aA1!' -l 1-10 -u crack_this.zip 
 ```
