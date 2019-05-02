@@ -29,4 +29,7 @@ methods compiled in (* = default):
 *2: zip2, USE_MULT_TAB
 
 ```
-# 常见的命令3
+# 常见的命令
+```
+fcrackzip -D -p /usr/share/wordlists/rockyou.txt -u crack_this.zip
+```
