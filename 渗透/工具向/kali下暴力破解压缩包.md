@@ -20,7 +20,7 @@ USAGE: fcrackzip
           [-u|--use-unzip]              use unzip to weed out wrong passwords
           [-m|--method num]             use method number "num" (see below)
           [-2|--modulo r/m]             only calculcate 1/m of the password
-          file...                    the zipfiles to crack
+          file...                    the zipfiles to crack  破解的文件
 
 methods compiled in (* = default):
 
@@ -29,3 +29,4 @@ methods compiled in (* = default):
 *2: zip2, USE_MULT_TAB
 
 ```
+# 常见的命令
