@@ -12,4 +12,7 @@ Upgrade-Insecure-Requests: 1
 
 ```
 
-github上找到压缩文件，解压发现是django的secret key
+github上找到压缩文件，破解密码解压发现是django的secret key
+
+```
+```
