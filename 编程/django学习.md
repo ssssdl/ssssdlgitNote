@@ -84,5 +84,11 @@ polls/
     tests.py
     views.py
 # 输入代码如下
+from django.urls import path
 
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index'),
+]
 ```
