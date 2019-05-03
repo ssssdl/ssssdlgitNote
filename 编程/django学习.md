@@ -62,3 +62,4 @@ polls/
     views.py
 ```
 # 简单开发polls应用
+编写视图
