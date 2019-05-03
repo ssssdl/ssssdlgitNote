@@ -21,7 +21,7 @@ sudo ./Empire/setup/indtall.sh
 # 查看帮助信息
 help
 
-# 进入监听模式，并查看
+# 进入监听模式，并查看当前的监听
 listeners
 # 此时提示符会加上listener字样 第一次会提示没有设置监听
 
@@ -30,4 +30,6 @@ uselistener http 	# 使用http监听，还有很多其他形式的，
 info			# 查看需要配置的信息，类似show options
 set 			# set命令用来配置参数，格式set 选项 值,注意配置完成后并没有立即生效
 execute			# 使set命令生效
+
+# 再次
 ```
