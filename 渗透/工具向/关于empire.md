@@ -41,10 +41,12 @@ kill +Name		# 删除监听
 ## 生成木马
 注意要先建立监听才能继续生成木马，因为木马需要反弹shell的地址和端口
 ```
+使用listeners
 # 可以使用launcher和usestager两种方法生成木马，launcher生成文本形式的，usestager生成文件形式的（暂时觉得是这样的，2019.5.3）
 launcher +语言 +监听器Name
 # 直接回显想要的代码
 usestager +Empire stager
 # 需要set设置监听器等相关的参数才可以继续
 execute			# set生效，生成木马文件
+
 ```
