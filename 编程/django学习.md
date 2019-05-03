@@ -74,4 +74,13 @@ def index(request):
 在polls目录里面创建一个urls.py的文件
 ```
 
+polls/
+    __init__.py
+    admin.py
+    apps.py
+    migrations/
+        __init__.py
+    models.py
+    tests.py
+    views.py
 ```
