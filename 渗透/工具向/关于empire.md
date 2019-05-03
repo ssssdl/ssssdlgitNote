@@ -87,4 +87,4 @@ interact NCU84961
 
 # 相关链接
 - [PowerShell Empire实战入门篇](http://www.52bug.cn/hkjs/4368.html) 这个是2.3版本的教程，算是一个比较新的入门教程吧
-- [](https://www.freebuf.com/articles/web/165925.html)
+- [Empire 2.5：PowerShell渗透测试实战指南（上篇）](https://www.freebuf.com/articles/web/165925.html) 
