@@ -28,5 +28,5 @@ listeners
 # 配置一个监听
 uselistener http 	# 使用http监听，还有很多其他形式的，
 info			# 查看需要配置的信息，类似show options
-
+set 			# set命令用来配置参数，
 ```
