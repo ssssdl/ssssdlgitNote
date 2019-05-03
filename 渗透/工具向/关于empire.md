@@ -17,6 +17,7 @@ sudo ./Empire/setup/indtall.sh
 - agents管理一些反弹到的shell或者是代理之类的
 
 # 简单使用过程
+## 配置监听
 ```
 # 查看帮助信息
 help
@@ -37,3 +38,4 @@ listeners
 # 配置监听要注意任何两个监听的Name和Port不能相同
 kill +Name		# 删除监听
 ```
+
