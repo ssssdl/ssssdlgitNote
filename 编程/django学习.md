@@ -3,4 +3,6 @@
 ```
 pip install django
 ```
-建立
+建立工程
+```
+```
