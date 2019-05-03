@@ -28,6 +28,6 @@ mysite/
 
 # 运行工程
 ```
-在800
+在8080端口上运行
 python manage.py runserver 8080
 ```
