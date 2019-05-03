@@ -89,3 +89,4 @@ interact NCU84961
 - [PowerShell Empire实战入门篇](http://www.52bug.cn/hkjs/4368.html) 这个是2.3版本的教程，算是一个比较新的入门教程吧
 - [Empire 2.5：PowerShell渗透测试实战指南（上篇）](https://www.freebuf.com/articles/web/165925.html) 也是一个比较新的教程，而且涉及到了web界面配置，而且这人目前还没有下篇
 - [后渗透测试神器Empire的详解](https://xz.aliyun.com/t/67) 一个比较老的教程，参考一下
+- [windows后门种植方式收集(http://xnianq.cn/2018/07/23/windows%E5%90%8E%E9%97%A8%E7%A7%8D%E6%A4%8D%E6%96%B9%E5%BC%8F%E6%94%B6%E9%9B%86/)
