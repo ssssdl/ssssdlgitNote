@@ -26,6 +26,7 @@ listeners
 # 此时提示符会加上listener字样 第一次会提示没有设置监听
 
 # 配置一个监听
-uselistener http
-#使用http监听，还有很多
+uselistener http 	#使用http监听，还有很多其他形式的，
+
+info#		查看
 ```
