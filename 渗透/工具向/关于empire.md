@@ -18,6 +18,7 @@ sudo ./Empire/setup/indtall.sh
 
 # 简单使用过程
 ```
-# 
+# 查看帮助信息
 help
+
 ```
