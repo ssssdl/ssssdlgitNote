@@ -12,4 +12,4 @@ Upgrade-Insecure-Requests: 1
 
 ```
 
-github上找到压缩文件，解压发现是
+github上找到压缩文件，解压发现是django的
