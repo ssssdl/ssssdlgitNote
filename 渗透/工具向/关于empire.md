@@ -35,5 +35,5 @@ back			# 退出监听配置
 # 再次查看监听
 listeners
 # 配置监听要注意任何两个监听的Name和Port不能相同
-kill +N
+kill +Name		# 删除监听
 ```
