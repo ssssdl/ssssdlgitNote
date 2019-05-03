@@ -21,7 +21,7 @@ sudo ./Empire/setup/indtall.sh
 # 查看帮助信息
 help
 
-# 进入监听模式
+# 进入监听模式，并查看
 listeners
 # 此时提示符会加上listener字样 第一次会提示没有设置监听
 
