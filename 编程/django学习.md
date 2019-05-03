@@ -100,4 +100,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 ```
-此时运行工程访问http://127.0.0.1:8000/polls就能访问到新建立的
+此时运行工程访问http://127.0.0.1:8000/polls就能访问到新建立的poll工程了
