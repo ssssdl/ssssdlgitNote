@@ -13,4 +13,5 @@ sudo ./Empire/setup/indtall.sh
 
 简单使用，empire主要分为三个部分，
 - module是一些payload，可以通过这个模块生成各种需要的后门之类的
-- listeners监听器，
+- listeners监听器，几种类型
+- agents管理一些反弹
