@@ -41,5 +41,5 @@ kill +Name		# 删除监听
 ## 生成木马
 注意要先建立监听才能继续生成木马，因为木马需要反弹shell的地址和端口
 ```
-# 可以使用launcher和usestager两种方法生成木马吧
+# 可以使用launcher和usestager两种方法生成木马吧launcher
 ```
