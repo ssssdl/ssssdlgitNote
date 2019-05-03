@@ -43,6 +43,8 @@ kill +Name		# 删除监听
 ```
 # 可以使用launcher和usestager两种方法生成木马，launcher生成文本形式的，usestager生成文件形式的（暂时觉得是这样的，2019.5.3）
 launcher +语言 +监听器Name
+# 直接回显想要的代码
 usestager +Empire stager
+需要设置
 
 ```
