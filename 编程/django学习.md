@@ -65,5 +65,7 @@ polls/
 编写视图打开polls/view.py
 ```
 # 添加代码如下
-from django.http improt Http
+from django.http improt HttpResponse
+
+def
 ```
