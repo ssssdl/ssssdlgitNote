@@ -1,5 +1,5 @@
 # 百度杯十月场 Gift
-打开题目，post发get包,得到报错More information is available with DEBUG=True.，发现是django
+打开题目，post发get包,得到报错`More information is available with DEBUG=True.`，发现是django
 ```
 POST / HTTP/1.1
 Host: c0a0e53c0f2d4f4fa60e8850469e05c794f99e0dbd734ea1.changame.ichunqiu.com
