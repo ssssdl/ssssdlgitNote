@@ -3,4 +3,4 @@
 [Django任意代码执行漏洞分析](https://www.secpulse.com/archives/36756.html)
 
 ---
-感觉这个漏洞针对python2+django
+感觉这个漏洞针对python2+django1.
