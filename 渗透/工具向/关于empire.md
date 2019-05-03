@@ -11,4 +11,5 @@ sudo ./Empire/setup/indtall.sh
 # 可能要输入一个什么密码，直接回车就可以，全部执行完成后就算完成了，需要的话还可以把./Empire/empire添加到系统命令中
 ```
 
-简单使用，empire主要分为三个部分，module是一些payload，可以通过这个模块生成各种需要的
+简单使用，empire主要分为三个部分，
+- module是一些payload，可以通过这个模块生成各种需要的后门之类的，对应的调用命令是usest
