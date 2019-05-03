@@ -28,5 +28,6 @@ mysite/
 
 # 运行工程
 ```
-
+在800
+python manage.py runserver 8080
 ```
