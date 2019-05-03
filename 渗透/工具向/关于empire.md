@@ -30,7 +30,7 @@ listeners
 uselistener http 	# 使用http监听，还有很多其他形式的，
 info			# 查看需要配置的信息，类似show options
 set 			# set命令用来配置参数，格式set 选项 值,注意配置完成后并没有立即生效
-execute			# 使set命令生效
+execute			# 使set命令生效，同时启动监听器
 back			# 退出监听配置
 
 # 再次查看监听
@@ -46,6 +46,6 @@ launcher +语言 +监听器Name
 # 直接回显想要的代码
 usestager +Empire stager
 # 需要设置监听器等相关的参数才可以继续
-
+execu
 
 ```
