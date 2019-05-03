@@ -36,6 +36,8 @@ python manage.py runserver 0:8080
 
 # 除此之外manage.py还有很多选项，比如添加管理用户啊等等
 python manage.py migrate  #加载一些相关的模块吧
+python manage.py createsuperuser   #创建用户
+
 
 ```
 
