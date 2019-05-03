@@ -67,7 +67,8 @@ execute			# set生效，生成木马文件
 
 # 会显示被攻击级器的IP
 
-(Empire: listeners) > agents
+# 使用agents
+agents
 
 [*] Active agents:
 
