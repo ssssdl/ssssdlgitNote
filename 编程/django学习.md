@@ -36,3 +36,5 @@ python manage.py runserver 0:8080
 ```
 
 # 创建一个应用
+```
+```
