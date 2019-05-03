@@ -21,4 +21,6 @@ python pydictor.py -plug birthday 19900101 20141231 --len 8 8
 fcrackzip -D -p /usr/share/wordlists/rockyou.txt -u crack_this.zip
 ```
 
-找到djangopayload
+找到django命令执行poc
+
+`1
