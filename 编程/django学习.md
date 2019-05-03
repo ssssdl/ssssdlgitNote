@@ -38,9 +38,10 @@ python manage.py runserver 0:8080
 python manage.py migrate  #加载一些相关的模块吧
 python manage.py createsuperuser   #创建用户
 
-默认管理界面是/admin
+默认管理路径是/admin
 ```
 
 # 创建一个应用
 ```
+
 ```
