@@ -46,5 +46,14 @@ python manage.py createsuperuser   #创建用户
 # 在manage.py路径
 python manage.py startapp polls  //创建一个叫polls的web应用
 
-# 此时在当前文件夹下创建了一个新的polls文件夹目录
+# 此时在当前文件夹下创建了一个新的polls文件夹目录结构如下
+polls/
+    __init__.py
+    admin.py
+    apps.py
+    migrations/
+        __init__.py
+    models.py
+    tests.py
+    views.py
 ```
