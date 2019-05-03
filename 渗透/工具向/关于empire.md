@@ -45,7 +45,6 @@ kill +Name		# 删除监听
 launcher +语言 +监听器Name
 # 直接回显想要的代码
 usestager +Empire stager
-# 需要设置监听器等相关的参数才可以继续
+# 需要set设置监听器等相关的参数才可以继续
 execute			# set生效，生成木马文件
-
 ```
