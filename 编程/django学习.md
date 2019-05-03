@@ -35,7 +35,7 @@ python manage.py runserver 8080
 python manage.py runserver 0:8080
 
 # 除此之外manage.py还有很多选项，比如添加管理用户啊等等
-
+python manage.py migrate
 ```
 
 # 创建一个应用
