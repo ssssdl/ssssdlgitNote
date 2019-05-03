@@ -3,4 +3,4 @@
 ```
 pip install django
 ```
-j
+建立
