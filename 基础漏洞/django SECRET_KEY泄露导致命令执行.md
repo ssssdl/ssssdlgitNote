@@ -5,3 +5,5 @@
 
 # 测试环境搭建
 ```
+django-admin startapp testexec
+```
