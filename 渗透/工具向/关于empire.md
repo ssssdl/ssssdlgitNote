@@ -86,3 +86,4 @@ interact NCU84961
 ---
 
 # 相关链接
+- [PowerShell Empire实战入门篇](http://www.52bug.cn/hkjs/4368.html) 这个是
