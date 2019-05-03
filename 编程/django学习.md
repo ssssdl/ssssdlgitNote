@@ -5,4 +5,5 @@ pip install django
 ```
 建立工程
 ```
+django-admin startproject mydjango
 ```
