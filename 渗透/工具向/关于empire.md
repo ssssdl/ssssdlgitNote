@@ -20,5 +20,6 @@ sudo ./Empire/setup/indtall.sh
 ```
 # 查看帮助信息
 help
-
+# 进入一个监听
+listeners
 ```
