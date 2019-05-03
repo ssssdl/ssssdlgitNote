@@ -64,5 +64,6 @@ polls/
 # 简单开发polls应用
 编写视图打开polls/view.py
 ```
-# tia
+# 添加代码如下
+from 
 ```
