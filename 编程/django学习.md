@@ -92,5 +92,11 @@ urlpatterns = [
 ```
 这样就创建了一个polls.urls的模块，接下来到总工程中将这个模块添加进去
 ```
+from django.contrib import admin
+from django.urls import include, path
 
+urlpatterns = [
+    path('polls/', include('polls.urls')),
+    path('admin/', admin.site.urls),
+]
 ```
