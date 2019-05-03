@@ -8,4 +8,12 @@ pip install django
 django-admin startproject 工程名
 ```
 目录结构：
-`
+```
+mysite/
+    manage.py
+    mysite/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+```
