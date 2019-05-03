@@ -46,6 +46,6 @@ launcher +语言 +监听器Name
 # 直接回显想要的代码
 usestager +Empire stager
 # 需要设置监听器等相关的参数才可以继续
-execute			# 生成木马文件
+execute			# set生效，生成木马文件
 
 ```
