@@ -90,4 +90,4 @@ urlpatterns = [
     path('', views.index, name='index'),
 ]
 ```
-这样就创建了一个polls.urls的模块，接下来到默认模块里面去管理
+这样就创建了一个polls.urls的模块，接下来到里面去管理
