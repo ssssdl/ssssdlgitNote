@@ -7,4 +7,5 @@ pip install django
 ```
 django-admin startproject 工程名
 ```
-
+目录结构：
+`
