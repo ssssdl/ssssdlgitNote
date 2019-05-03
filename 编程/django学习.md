@@ -71,7 +71,7 @@ def index(request):
 	return HttpResponse("hello,world.You're at the polls index.")
 ```
 接下来写一个url映射到这个视图
-在polls目录里面
+在polls目录里面创建一个urls.py的文件
 ```
 
 ```
