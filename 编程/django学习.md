@@ -68,5 +68,5 @@ polls/
 from django.http improt HttpResponse
 
 def index(request):
-	return HttpResponse("hello,world.")
+	return HttpResponse("hello,world.You're at the polls index.")
 ```
