@@ -90,4 +90,4 @@ urlpatterns = [
     path('', views.index, name='index'),
 ]
 ```
-这样就创建了一个
+这样就创建了一个polls.urls
