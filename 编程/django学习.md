@@ -100,4 +100,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 ```
-此时
+此时运行工程访问http://127.0.0
