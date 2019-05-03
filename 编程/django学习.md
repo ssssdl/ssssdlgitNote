@@ -44,5 +44,5 @@ python manage.py createsuperuser   #创建用户
 # 创建一个应用
 ```
 在manage.py路径
-
+python manage.py startapp
 ```
