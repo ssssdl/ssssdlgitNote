@@ -73,7 +73,7 @@ def index(request):
 接下来写一个url映射到这个视图
 在polls目录里面创建一个urls.py的文件
 ```
-创建完成后目录结构如下
+# 创建完成后目录结构如下
 polls/
     __init__.py
     admin.py
@@ -83,4 +83,5 @@ polls/
     models.py
     tests.py
     views.py
+
 ```
