@@ -17,6 +17,6 @@ github上找到压缩文件，破解密码解压发现是django的secret key
 ```
 # 根据提示生成生日字典
 python pydictor.py -plug birthday 19900101 20141231 --len 8 8
-
+# 使用字典爆破
 fcrackzip -D -p /usr/share/wordlists/rockyou.txt -u crack_this.zip
 ```
