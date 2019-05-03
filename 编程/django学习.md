@@ -67,5 +67,6 @@ polls/
 # 添加代码如下
 from django.http improt HttpResponse
 
-def
+def index(request):
+	retu
 ```
