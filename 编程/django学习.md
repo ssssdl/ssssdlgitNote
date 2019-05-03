@@ -28,9 +28,9 @@ mysite/
 
 # 运行工程
 ```
-默认
-在8080端口上运行
+# 默认端口是8000
+# 在8080端口上运行
 python manage.py runserver 8080
-还可以指定ip
-
+# 还可以指定ip
+python mana
 ```
