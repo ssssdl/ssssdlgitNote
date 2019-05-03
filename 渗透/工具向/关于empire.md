@@ -53,5 +53,5 @@ usestager +Empire stager
 # 需要set设置监听器等相关的参数才可以继续
 execute			# set生效，生成木马文件
 
-
+# 到目标机器上执行生成的
 ```
