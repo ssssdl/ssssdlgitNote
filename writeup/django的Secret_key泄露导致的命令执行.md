@@ -22,5 +22,6 @@ fcrackzip -D -p /usr/share/wordlists/rockyou.txt -u crack_this.zip
 ```
 
 找到django命令执行poc
+```
 
-`1
+```
