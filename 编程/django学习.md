@@ -70,4 +70,4 @@ from django.http improt HttpResponse
 def index(request):
 	return HttpResponse("hello,world.You're at the polls index.")
 ```
-接下来写一个url映射到这个
+接下来写一个url映射到这个视图
