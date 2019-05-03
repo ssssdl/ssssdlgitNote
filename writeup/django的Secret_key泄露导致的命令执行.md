@@ -22,7 +22,7 @@ fcrackzip -D -p /usr/share/wordlists/rockyou.txt -u crack_this.zip
 ```
 
 找到django命令执行poc,然后命令执行get到flag
-> 这里面有一个tcp无法
+> 这里面有一个tcp无法使用，然后
 ```
 # !/usr/bin/env python
 # -*- coding:utf-8 -*-
