@@ -32,5 +32,5 @@ mysite/
 # 在8080端口上运行
 python manage.py runserver 8080
 # 还可以指定ip
-python manage.py runserver 
+python manage.py runserver 0:8080
 ```
