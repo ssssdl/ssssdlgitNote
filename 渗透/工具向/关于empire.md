@@ -6,5 +6,6 @@
 ```
 # kali clone项目到本地
 git clone https://github.com/EmpireProject/Empire.git
-# 
+# 安装
+sudo ./E
 ```
