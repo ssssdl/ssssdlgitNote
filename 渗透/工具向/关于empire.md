@@ -8,5 +8,5 @@
 git clone https://github.com/EmpireProject/Empire.git
 # 安装
 sudo ./Empire/setup/indtall.sh
-# 可能要输入一个什么
+# 可能要输入一个什么密码，直接回车就可以，全部
 ```
