@@ -46,5 +46,5 @@ python manage.py createsuperuser   #创建用户
 # 在manage.py路径
 python manage.py startapp polls  //创建一个叫polls的web应用
 
-# 此时
+# 此时在当前文件夹下创建
 ```
