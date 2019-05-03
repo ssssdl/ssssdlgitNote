@@ -76,10 +76,11 @@ agents
  ----     -- -----------     ------------      --------                -------            ---    -----    ---------
  NCU84961 ps 192.168.11.1    DESKTOP-S8B7MSP   DESKTOP-S8B7MSP\R-web   powershell         1968   5/0.0    2019-05-03 17:59:53
 
-连接目标interact NCU84961
-(Empire: NCU84961) > dir
-[*] Tasked NCU84961 to run TASK_SHELL
-[*] Agent NCU84961 tasked with task ID 1
-(Empire: NCU84961) > [*] Agent NCU84961 returned results.
+连接目标shell
+interact NCU84961
 
 ```
+
+---
+这算是
+---
