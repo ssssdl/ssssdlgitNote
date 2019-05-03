@@ -17,3 +17,7 @@ sudo ./Empire/setup/indtall.sh
 - agents管理一些反弹到的shell或者是代理之类的
 
 # 简单使用过程
+```
+# 
+help
+```
