@@ -63,4 +63,4 @@ apachectl -t -D DUMP_MODULES	# 查看apache加载的模块
 ```
 
 
-## 然后strings
+## 然后strings命令常常用来查询已经编译好的c程序或者链接库中的字符串
