@@ -20,4 +20,4 @@ nmcli device  //针对网卡的操作
 nmcli device connect （网卡名称） 表示链接一个网卡
 nmcli device disconnect （网卡名称） 断开一个网卡的链接
 nmcli device show （网卡名称） 表示查看一个网卡的硬件信息
-nmcli device status 查看网卡状态 ,le
+nmcli device status 查看网卡状态 ,列出设备名称（DEVICE）、网卡类型（TYPE）、网卡状态（）
