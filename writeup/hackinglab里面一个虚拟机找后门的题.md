@@ -37,5 +37,7 @@ netstat -ntlp
 ```
 然后用户和组的操作的命令主要有
 ```
+useradd		# 增加用户
+usermod		# 修改用户
 
 ```
