@@ -27,4 +27,6 @@ netstat -ntlp
 另外还要查看防火墙的相关设置`/etc/sysconfig/iptables`和`iptables status`
 
 ## 查看用户和组的相关状态
-`group`
+`groups`查看当前组中的成员，如果加上用户就是查看这个用户所在组的成员。
+
+然后检查
