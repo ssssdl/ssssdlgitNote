@@ -35,3 +35,7 @@ netstat -ntlp
 /etc/shadow
 /etc/passwd
 ```
+然后用户和组的操作的命令主要有
+```
+
+```
