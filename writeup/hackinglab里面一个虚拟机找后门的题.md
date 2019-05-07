@@ -55,8 +55,8 @@ last或者lastb	# 查看登陆成功和不成功的日志信息
 ```
 ##查看进程ps命令
 我比较常用的是ps aux
-这个命令分为linux命令和UNIX系统两套参数，
-
+这个命令分为linux命令和UNIX系统两套参数，aux这个前面没有横线是unix是unix下的
+相关
 ## 查看apache加载的模块
 ```
 apachectl -l			# 查看编译时就编译在apache中的模块
