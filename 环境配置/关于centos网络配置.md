@@ -20,4 +20,12 @@ nmcli device  //针对网卡的操作
 nmcli device connect （网卡名称） 表示链接一个网卡
 nmcli device disconnect （网卡名称） 断开一个网卡的链接
 nmcli device show （网卡名称） 表示查看一个网卡的硬件信息
-nmcli device status 查看网卡状态 ,列出设备名称（DEVICE）、网卡类型（TYPE）、网卡状态（）
+nmcli device status 查看网卡状态 ,列出设备名称（DEVICE）、网卡类型（TYPE）、网卡状态（STATE）、当前连接网卡的配置文件（CONNECTION）
+
+nmcli connection add 表示添加一个配置文件
+nmcli connection delete 表示删除一个文件
+nmcli connection modify 表示修改一个配置文件
+nmcli connection show 查看配置文件
+nmcli connection up 表示使配置文件生效
+nmcli connection down 表示使配置文件失效
+```
