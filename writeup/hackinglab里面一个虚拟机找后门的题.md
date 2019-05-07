@@ -12,3 +12,4 @@ chkconfig iptables  off
 关闭防火墙level 3级别的启动
 chkconfig iptables --level 3 off
 ```
+查看一些配置文件启动项 /
