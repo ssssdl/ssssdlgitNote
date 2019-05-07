@@ -39,5 +39,6 @@ netstat -ntlp
 ```
 useradd		# 增加用户
 usermod		# 修改用户
+userdel 	# 删除用户
 
 ```
