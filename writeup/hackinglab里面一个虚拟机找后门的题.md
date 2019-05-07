@@ -57,5 +57,6 @@ last或者lastb	# 查看登陆成功和不成功的日志信息
 ## 查看apache加载的模块
 ```
 apachectl -l			# 查看编译时就编译在apache中的模块
-apachectl -t -D DUMP_MODULES	# 
+apachectl -t -D DUMP_MODULES	# 查看apache加载的模块
+# 这个也可以在apache的配置文件中
 ```
