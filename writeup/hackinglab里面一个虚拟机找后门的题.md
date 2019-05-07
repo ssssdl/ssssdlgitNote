@@ -46,3 +46,8 @@ groupadd	# 添加组
 groupmod	# 修改组
 groupdel	# 删除组
 ```
+其他相关的 
+```
+w或者who	# 查看当前系统用户登陆情况
+
+```
