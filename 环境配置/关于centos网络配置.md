@@ -32,5 +32,12 @@ nmcli connection down 表示使配置文件失效
 
 ## 一些例子
 ```
+添加网卡配置文件至少con-name /type/ ifname 三个信息
+创建时网卡配置文件没有指定ip地址默认通过dhcp获取地址
+[root@cc Desktop]# nmcli  connection  add  con-name  ccc（配置文件名称）  type  ethernet（类型）  ifname   eno16777736（关联网卡名称） autoconnect yes（开机自动连接） ip4 "172.16.1.1/24"（IP地址/子网掩码） gw4 "172.16.1.254"（网关地址）
+
+添加配置文件不能直接指定dns可以通过修改添加
+//修改配置文件
+[root@cc Desktop]# nmcli  connection  modify bbb（配置文件名称）   ipv4.addresses  "1.1.1.1/24 1.1.1.254"（IP地址/子网掩码  网关） ipv4.dns 2.2.2.2（dns）  connection.autoconnect yes（设置科开机自动连接） ipv4.method manual（设置ip地址获取方式为手工配置/auto dhcp获取）
 
 ```
