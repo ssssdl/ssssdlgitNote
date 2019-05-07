@@ -24,3 +24,4 @@ lsof -i tcp:80
 ```
 netstat -ntlp
 ```
+另外还要查看
