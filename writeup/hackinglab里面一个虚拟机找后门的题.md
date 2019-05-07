@@ -24,4 +24,4 @@ lsof -i tcp:80
 ```
 netstat -ntlp
 ```
-另外还要查看防火墙的相关设置
+另外还要查看防火墙的相关设置`/etc/sysconfig/iptables`和`iptables status`
