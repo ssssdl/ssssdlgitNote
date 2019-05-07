@@ -29,3 +29,8 @@ nmcli connection show 查看配置文件
 nmcli connection up 表示使配置文件生效
 nmcli connection down 表示使配置文件失效
 ```
+
+## 一些例子
+```
+
+```
