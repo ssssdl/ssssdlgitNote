@@ -29,4 +29,9 @@ netstat -ntlp
 ## 查看用户和组的相关状态
 `groups`查看当前组中的成员，如果加上用户就是查看这个用户所在组的成员。
 
-然后检查
+然后检查以下文件状态是否正常
+```
+/etc/group
+/etc/shadow
+/etc/passwd
+```
