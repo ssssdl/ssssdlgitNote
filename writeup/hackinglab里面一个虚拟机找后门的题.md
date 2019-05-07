@@ -40,5 +40,7 @@ netstat -ntlp
 useradd		# 增加用户
 usermod		# 修改用户
 userdel 	# 删除用户
-gpasswd 	# 将用户
+gpasswd 	# 将用户加入指定组中
+passwd		# 修改用户密码
+groupadd	#
 ```
