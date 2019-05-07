@@ -3,9 +3,12 @@
 
 # 说一些做这个题的时候用的一些思路和方法
 
-## 启动项查询 chkconfig
-这个命令可以查询启动项，也可以配置一些启动项，
+## 启动项查询
+`chkconfig`这个命令可以查询启动项，也可以配置一些启动项，
 ```
+例子：
 关闭防火墙自启 各启动级别全部关闭
 chkconfig iptables  off 
+关闭防火墙level 3级别的启动
+chkconfig iptables --level 3 off
 ```
