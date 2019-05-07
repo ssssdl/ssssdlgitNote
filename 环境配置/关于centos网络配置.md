@@ -4,4 +4,4 @@
 - [](https://blog.csdn.net/wendelee/article/details/17339835)
 
 
-> 这
+> 这种可能比较通用一些，但是我觉得后来学的红帽系linux
