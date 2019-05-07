@@ -10,3 +10,6 @@
 # 一些红帽比赛的课程培训资料
 
 ## nmcli
+全称：network manager command line interface
+
+nm
