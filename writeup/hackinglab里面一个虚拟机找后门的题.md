@@ -42,5 +42,7 @@ usermod		# 修改用户
 userdel 	# 删除用户
 gpasswd 	# 将用户加入指定组中
 passwd		# 修改用户密码
-groupadd	#
+groupadd	# 添加组
+groupmod	# 修改组
+groupdel	# 删除组
 ```
