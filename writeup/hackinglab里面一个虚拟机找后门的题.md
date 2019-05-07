@@ -21,3 +21,8 @@ chkconfig iptables --level 3 off
 lsof -i tcp:80
 ```
 列出所有端口占用情况
+```
+netstat -ntlp
+```
+
+然后一些关于
