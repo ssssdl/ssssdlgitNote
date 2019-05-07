@@ -11,7 +11,8 @@
 
 ## nmcli
 全称：network manager command line interface
-> 有两套管理系统:网卡和配置文件,可以预先设置多套配置文件，然后将需要的配置文件直接
+> 有两套管理系统:网卡和配置文件,可以预先设置多套配置文件，然后将需要的配置文件直接up起来就可以了，网卡不能做太多的配置主要是做一些连接断开的操作，然后
+
 nmcli 可以补全
 nmcli connection //针对配置文件的操作
 nmcli device  //针对网卡的操作
