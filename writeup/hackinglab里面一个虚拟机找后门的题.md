@@ -16,4 +16,8 @@ chkconfig iptables --level 3 off
 还有`/etc/rc.local /etc/rc.sysinit /etc/inittab /etc/profile`等一些文件都又类似配置自启动的功能
 
 ## 查看端口占用情况，包括要查看防火墙规则
-查看单个端口
+查看单个端口占用情况,注意这个lsof可能有的系统不自带
+```
+lsof -i tcp:80
+```
+列出所有端口
