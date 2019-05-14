@@ -175,4 +175,4 @@ int main(void)
 }
 ```
 
-编译后执行`./a.out & ps aux` 发现真的有进程COMMAND为`/usr/sbin/apache3`的进程
+编译后执行`./a.out & ps aux` 发现真的有进程COMMAND为`/usr/sbin/apache3`的进程，但是从输出上看并不是单纯的p
