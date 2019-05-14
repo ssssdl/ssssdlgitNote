@@ -125,3 +125,5 @@ view-source:http://192.168.72.137/?wearefriends+
 http://192.168.72.137/?hackinglabwelcomeyou!
 无线连接，感觉有点像反弹shell时候的状态，而且上面的的函数命名为process_client有点可能是弹shell吧，那就是正向连接和反弹shell，正向连接的话防火墙并没有开放其他端口，反弹的话程序中也没有IP字段
 ```
+
+> 感觉这里
