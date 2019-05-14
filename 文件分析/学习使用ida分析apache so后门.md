@@ -179,4 +179,6 @@ int main(void)
 
 那么问题来了rootkit里面的s是那里来的，在一个叫`runshell_pty`的函数里面（名字这么奇怪为什么没早点关注），在另一个叫`runshell_raw`里面还有一个类似的但是参数是`&file`
 
-但是这两个参数（s和file）就直接赋值98然后就放到execlp函数里面了
+而且这两个参数（s和file）就直接赋值98然后就放到execlp函数里面了
+
+
