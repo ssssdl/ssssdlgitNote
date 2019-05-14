@@ -193,4 +193,4 @@ int main(void)
 - 先找到ida安装目录下的`dbgsrv`文件夹，这个目录存放一些远程调试的服务端程序。（感觉这个软件真是有点强）
 > 我这里面直接拷贝了一个linux_server64到根目录下，附上777，直接执行
 - 打开ida连接服务端程序
-> 打开ida，选择菜单栏中的Debugger
+> 打开ida，选择菜单栏中的Debugger=> run=>
