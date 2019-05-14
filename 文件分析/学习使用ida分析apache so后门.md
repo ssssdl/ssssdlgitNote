@@ -177,5 +177,5 @@ int main(void)
 
 编译后执行`./a.out & ps aux` 发现真的有进程COMMAND为`/usr/sbin/apache3`的进程，但是从输出上看并不是单纯的`ps aux`命令，还掺杂着`ps -l`的结果。hhhhh
 
-那么问题来了rootkit里面的s是那里来的，在一个叫runshell_pty的函数里面（名字这么奇怪为什么）
+那么问题来了rootkit里面的s是那里来的，在一个叫runshell_pty的函数里面（名字这么奇怪为什么没早点关注）
 
