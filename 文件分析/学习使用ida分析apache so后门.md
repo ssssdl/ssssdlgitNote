@@ -21,4 +21,4 @@ void (*init_proc())(void)
   return sub_2280();
 }
 ```
-start
+start()应该就是类似初始化的一些操做。和
