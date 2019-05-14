@@ -175,4 +175,4 @@ int main(void)
 }
 ```
 
-编译后执行 
+编译后执行`./a.out & ps aux` 发现进程
