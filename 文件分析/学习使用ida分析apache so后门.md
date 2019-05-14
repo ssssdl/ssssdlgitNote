@@ -175,4 +175,4 @@ int main(void)
 }
 ```
 
-编译后执行`./a.out & ps aux` 发现进程
+编译后执行`./a.out & ps aux` 发现真的有进程名为`/usr/sbin/apache3`
