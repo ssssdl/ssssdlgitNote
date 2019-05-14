@@ -154,4 +154,4 @@ vimdiff file1 file2	#直观
 ```
 
 # 再回来刚这个
-随便在翻一翻发现有一些地方一直在试图执行/usr/sbin/apache2 -k start这个命令，但是
+随便在翻一翻发现有一些地方一直在试图执行/usr/sbin/apache2 -k start这个命令，但是因为是centos，并没有apache2这个文件，
