@@ -123,5 +123,5 @@ view-source:http://192.168.72.137/?wearefriends+
 回显rootme-0.3 ready，说明的确是这样用的
 
 http://192.168.72.137/?hackinglabwelcomeyou!
-无线连接，感觉有点像反弹shell时候的状态，而且上面的的函数命名为process_client有点可能是弹shell吧，那就是正向连接和反弹shell
+无线连接，感觉有点像反弹shell时候的状态，而且上面的的函数命名为process_client有点可能是弹shell吧，那就是正向连接和反弹shell，正向连接的话防火墙并没有开放其他端口，反弹的话
 ```
