@@ -157,4 +157,4 @@ vimdiff file1 file2	#直观
 查看一下导入的函数，发现两个比较可疑的函数
 ![title](https://i.loli.net/2019/05/14/5cda84409ae4667396.png)
 
-点击发现这两个函数应该是在process_client()里面加载了，但是不知道为啥点开没有
+点击发现这两个函数应该是在process_client()里面加载了，但是不知道为啥点开没有显示（果然还是ida用的太菜了）
