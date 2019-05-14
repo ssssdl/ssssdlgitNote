@@ -145,5 +145,7 @@ apache动态链接库函数的一些说明
 
 然后还学到了一个新的命令
 ```
-linux终端下比较两个文件
+# linux终端下比较两个文件
+diff -u file1 file2
+vimdiff file1 file2
 ```
