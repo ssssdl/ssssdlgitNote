@@ -45,3 +45,73 @@ signed __int64 __fastcall sub_2101(__int64 a1)
 }
 ```
 先读取了一个配置文件（后来我查了一下ap_get_module_config，应该是还可以读取url的一些信息），然后根据这个信息得到v2然后做了两个字符串的比较分别执行了process_client(256, v2)和process_client(512, v2)
+```
+void __fastcall __noreturn process_client(int a1, int a2)
+{
+  unsigned int v2; // edx
+  int v3; // eax
+  unsigned int v4; // edx
+  ssize_t v5; // rax
+  ssize_t v6; // rax
+  char s1; // [rsp+10h] [rbp-10A0h]
+  fd_set readfds; // [rsp+1010h] [rbp-A0h]
+  int buf; // [rsp+1090h] [rbp-20h]
+  int v10; // [rsp+1094h] [rbp-1Ch]
+  int v11; // [rsp+1098h] [rbp-18h]
+  int v12; // [rsp+109Ch] [rbp-14h]
+
+  buf = a1;
+  v10 = write(pipe_A[1], &buf, 4uLL);
+  if ( v10 != 4 )
+    exit(0);
+  v10 = read(pipe_B[0], &buf, 4uLL);
+  if ( v10 != 4 )
+    exit(0);
+  if ( buf == 16 )
+    exit(0);
+  while ( 1 )
+  {
+    memset(&readfds, 0, sizeof(readfds));
+    v11 = 0;
+    v12 = (unsigned __int64)&buf;
+    v2 = (unsigned int)(pipe_B[2 * buf] >> 31) >> 26;
+    readfds.fds_bits[pipe_B[2 * buf] / 64] |= 1LL << (((v2 + pipe_B[2 * buf]) & 0x3F) - v2);
+    readfds.fds_bits[a2 / 64] |= 1LL << a2 % 64;
+    v3 = a2;
+    if ( pipe_B[2 * buf] >= a2 )
+      v3 = pipe_B[2 * buf];
+    v10 = v3;
+    if ( select(v3 + 1, &readfds, 0LL, 0LL, 0LL) < 0 )
+      exit(0);
+    v4 = (unsigned int)(pipe_B[2 * buf] >> 31) >> 26;
+    if ( !((readfds.fds_bits[pipe_B[2 * buf] / 64] >> (((v4 + pipe_B[2 * buf]) & 0x3F) - v4)) & 1) )
+      goto LABEL_24;
+    v10 = read(pipe_B[2 * buf], &s1, 0x1000uLL);
+    if ( v10 > 0 )
+    {
+      if ( !strncmp(&s1, &s2, 4uLL) )
+      {
+        shutdown(a2, 2);
+        exit(0);
+      }
+      v5 = send(a2, &s1, v10, 0);
+      if ( v5 == v10 )
+      {
+LABEL_24:
+        if ( !((readfds.fds_bits[a2 / 64] >> a2 % 64) & 1) )
+          continue;
+        v10 = recv(a2, &s1, 0x1000uLL, 0);
+        if ( v10 > 0 )
+        {
+          v6 = write(pipe_A[2LL * buf + 1], &s1, v10);
+          if ( v6 == v10 )
+            continue;
+        }
+      }
+    }
+    shutdown(a2, 2);
+    write(pipe_A[1], &buf, 4uLL);
+    exit(0);
+  }
+}
+```
