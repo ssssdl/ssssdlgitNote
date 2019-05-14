@@ -44,4 +44,4 @@ signed __int64 __fastcall sub_2101(__int64 a1)
   return 0xFFFFFFFFLL;
 }
 ```
-先读取了一个
+先读取了一个配置文件（后来我查了一下这个）
