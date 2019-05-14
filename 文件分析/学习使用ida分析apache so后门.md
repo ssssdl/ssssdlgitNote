@@ -21,3 +21,4 @@ void (*init_proc())(void)
   return sub_2280();
 }
 ```
+start
