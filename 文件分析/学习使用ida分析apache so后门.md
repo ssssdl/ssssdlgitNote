@@ -120,5 +120,6 @@ LABEL_24:
 综合一下上面的分析尝试访问下面两个url
 ```
 view-source:http://192.168.72.137/?wearefriends+
-
+回显rootme-0.3 ready，说明的确是
+http://192.168.72.137/?hackinglabwelcomeyou!
 ```
