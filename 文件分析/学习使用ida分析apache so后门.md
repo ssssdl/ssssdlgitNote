@@ -130,4 +130,4 @@ http://192.168.72.137/?hackinglabwelcomeyou!
 
 放一些前面过程查询到的一些资料连接
 - [关于ap_get_module_config的一个问题](https://grokbase.com/t/apache/modules-dev/06amwtemvp/question-about-ap-get-module-config) 就是这个问题让我发现这个有可能是是根据url上提交参数的方式执行的
-- [apache动态链接库](https://ci.apache.org/projects/httpd/trunk/doxygen/group__APACHE__CORE__CONFIG.html#gab024c5a586118de1faaf48a7f41de025)
+- [apache动态链接库里面的函数官方说明](https://ci.apache.org/projects/httpd/trunk/doxygen/group__APACHE__CORE__CONFIG.html#gab024c5a586118de1faaf48a7f41de025)
