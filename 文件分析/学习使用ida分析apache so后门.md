@@ -158,3 +158,21 @@ vimdiff file1 file2	#直观
 ![title](https://i.loli.net/2019/05/14/5cda9d351319869939.png)
 
 尝试写一个
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+//函数原型：int execlp(const char *file, const char *arg, ...);
+int main(void)
+{
+     printf("before execlp****\n");
+     if(execlp("ps","/usr/sbin/apache3","-l",NULL) == -1)
+     {
+         printf("execlp failed!\n");
+     }
+     printf("after execlp*****\n");
+     return 0;
+}
+```
+
+编译后执行 
