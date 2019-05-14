@@ -137,4 +137,4 @@ apache动态链接库函数的一些说明
 关于动态链接库的一些基础知识
 - [解析如何在C语言中调用shell命令的实现方法](https://www.cnblogs.com/sky-heaven/p/4687489.html)讲了三个system()、popen()、vfork(),不知道全不全
 - [C/C++ 静态链接库(.a) 与 动态链接库(.so)](http://www.cnblogs.com/52php/p/5681711.html)说了一下动态链接库的基础知识
-- 
+- [](http://blog.sina.com.cn/s/blog_3ee731bc0102xx9n.html)
