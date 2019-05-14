@@ -5,4 +5,4 @@
 # 先分析一个简单的
 地址：[Apache-HTTP-Server-Module-Backdoor](https://github.com/WangYihang/Apache-HTTP-Server-Module-Backdoor)
 
-> 这个是使用了一个popen的
+> 这个是使用了一个popen的函数执行了系统命令
