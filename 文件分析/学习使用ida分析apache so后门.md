@@ -44,4 +44,4 @@ signed __int64 __fastcall sub_2101(__int64 a1)
   return 0xFFFFFFFFLL;
 }
 ```
-先读取了一个配置文件（后来我查了一下这个）
+先读取了一个配置文件（后来我查了一下ap_get_module_config，应该是还可以读取url的一些信息）
