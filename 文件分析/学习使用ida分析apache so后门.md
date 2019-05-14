@@ -120,6 +120,8 @@ LABEL_24:
 综合一下上面的分析尝试访问下面两个url
 ```
 view-source:http://192.168.72.137/?wearefriends+
-回显rootme-0.3 ready，说明的确是
+回显rootme-0.3 ready，说明的确是这样用的
+
 http://192.168.72.137/?hackinglabwelcomeyou!
+无线连接，感觉有点像反弹
 ```
