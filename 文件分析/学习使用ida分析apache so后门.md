@@ -129,4 +129,4 @@ http://192.168.72.137/?hackinglabwelcomeyou!
 > 感觉这里就遇到了瓶颈，对这个linux的动态链接库so还是了解的太少了，后来有对照着看了一下mod_version.so也没对比出东西来
 
 放一些前面过程查询到的一些资料连接
-[关于](https://grokbase.com/t/apache/modules-dev/06amwtemvp/question-about-ap-get-module-config)
+[关于ap_get_module_config的一个问题](https://grokbase.com/t/apache/modules-dev/06amwtemvp/question-about-ap-get-module-config) 就是这个
