@@ -193,7 +193,7 @@ int main(void)
 - 先找到ida安装目录下的`dbgsrv`文件夹，这个目录存放一些远程调试的服务端程序。（感觉这个软件真是有点强）
 > 我这里面直接拷贝了一个linux_server64到根目录下，附上777，直接执行
 - 打开ida连接服务端程序
-> 打开ida，选择菜单栏中的Debugger=> attach =>Remote linux debugger,然后一般填好ip就ok可以了
+> 打开ida，选择菜单栏中的Debugger=> attach =>Remote linux debugger,然后一般填好ip就ok可以了，注意
 - 之后会弹出一个窗口，显示当前Linux下的进程，选择我要调试的`/usr/sbin/apache2 -k start`进程
 
 再然后又是一个看不懂的界面没逆向基础分析这个还是有点难
