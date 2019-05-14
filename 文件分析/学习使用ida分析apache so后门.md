@@ -194,4 +194,4 @@ int main(void)
 > 我这里面直接拷贝了一个linux_server64到根目录下，附上777，直接执行
 - 打开ida连接服务端程序
 > 打开ida，选择菜单栏中的Debugger=> attach =>Remote linux debugger,然后一般填好ip就ok可以了
-- 之后会弹出一个窗口，显示
+- 之后会弹出一个窗口，显示当前Linux下的进程，选择我要调试的/
