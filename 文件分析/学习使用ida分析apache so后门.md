@@ -129,6 +129,8 @@ http://192.168.72.137/?hackinglabwelcomeyou!
 > 感觉这里就遇到了瓶颈，对这个linux的动态链接库so还是了解的太少了，后来有对照着看了一下mod_version.so也没对比出东西来
 
 放一些前面过程查询到的一些资料连接
+
+动态链接库函数的一些
 - [关于ap_get_module_config的一个问题](https://grokbase.com/t/apache/modules-dev/06amwtemvp/question-about-ap-get-module-config) 就是这个问题让我发现这个有可能是是根据url上提交参数的方式执行的
 - [apache动态链接库里面的函数官方说明](https://ci.apache.org/projects/httpd/trunk/doxygen/group__APACHE__CORE__CONFIG.html#gab024c5a586118de1faaf48a7f41de025)
 - [解析如何在C语言中调用shell命令的实现方法](https://www.cnblogs.com/sky-heaven/p/4687489.html)讲了三个system()、popen()、vfork(),不知道全不全
