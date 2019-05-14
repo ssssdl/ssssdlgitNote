@@ -156,3 +156,5 @@ vimdiff file1 file2	#直观
 # 再回来刚这个
 随便在翻一翻发现有一些地方一直在试图执行/usr/sbin/apache2 -k start这个命令，但是因为是centos，并没有apache2这个文件，正确的文件应该是httpd，然后ps aux 发现进程中也存在这个，仔细看了一下，这是一个exec系列的函数！！！
 ![title](https://i.loli.net/2019/05/14/5cda9d351319869939.png)
+
+尝试写一个
