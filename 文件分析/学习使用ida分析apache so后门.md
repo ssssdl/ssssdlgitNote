@@ -207,5 +207,5 @@ int main(void)
 
 
 关于exec族函数的两篇博客
--
--
+- [linux进程---exec族函数(execl, execlp, execle, execv, execvp, execvpe)](https://blog.csdn.net/u014530704/article/details/73848573)
+- 
