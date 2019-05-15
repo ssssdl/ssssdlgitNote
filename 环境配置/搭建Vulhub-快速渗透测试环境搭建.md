@@ -14,4 +14,6 @@ pip install docker-compose
 yum install python-paramiko -y
 # 安装完成后查看版本,没有报错说明安装docker-compose成功
 docker-compose -v
+# 找到一个合适的目录
+
 ```
