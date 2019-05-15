@@ -20,4 +20,4 @@ git clone https://github.com/vulhub/vulhub.git
 
 # 搭建简单测试环境
 
-# 未完这个下载不知道为啥一直就卡在那里不动了，有一个一直
+# 未完这个下载不知道为啥一直就卡在那里不动了，有一个一直是writing的状态
