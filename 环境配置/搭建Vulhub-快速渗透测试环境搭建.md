@@ -8,5 +8,6 @@
 curl -s https://get.docker.com/ | sh 
 # 安装pip 应该是也要先准备好python
 curl -s https://bootstrap.pypa.io/get-pip.py | python
-# 安装
+# 安装docker-compose
+pip insta
 ```
