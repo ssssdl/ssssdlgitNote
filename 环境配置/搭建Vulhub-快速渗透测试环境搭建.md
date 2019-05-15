@@ -27,4 +27,6 @@ git clone https://github.com/vulhub/vulhub.git
 - 输入daocloud用户名密码，显示登录成功
 - 在daocloud网页上查询镜像，选择之后，点击”拉取”
 - 按照弹出的窗口执行扑棱棱镜像
-- 
+- 另：[daocloud](https://dashboard.daocloud.io/)
+
+
