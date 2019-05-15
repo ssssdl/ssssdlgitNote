@@ -6,5 +6,5 @@
 ```
 # 安装docker，直接在官网上安装最新版的docker，也可以使用系统自带的包管理工具安装（yum、apt、rpm）
 curl -s https://get.docker.com/ | sh 
-# 安装
+# 安装pip 应该是也要先准备好python2
 ```
