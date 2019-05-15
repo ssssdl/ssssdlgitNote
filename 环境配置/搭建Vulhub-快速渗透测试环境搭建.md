@@ -14,6 +14,8 @@ pip install docker-compose
 yum install python-paramiko -y
 # 安装完成后查看版本,没有报错说明安装docker-compose成功
 docker-compose -v
-# 找到一个合适的目录，下载Vulhub,这里面包含了很多
+# 找到一个合适的目录，下载Vulhub,这里面包含了很多测试环境的配置文件
 git clone https://github.com/vulhub/vulhub.git
 ```
+
+# 搭建简单测试
