@@ -10,5 +10,5 @@ curl -s https://get.docker.com/ | sh
 curl -s https://bootstrap.pypa.io/get-pip.py | python
 # 安装docker-compose
 pip install docker-compose
-# 这里可能会提示python
+# 这里可能会提示requests版本问题，直接忽略
 ```
