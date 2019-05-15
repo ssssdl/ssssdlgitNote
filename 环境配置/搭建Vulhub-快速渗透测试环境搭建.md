@@ -3,7 +3,7 @@
 
 # 安装
 
-
 ```
-
+# 安装docker，直接再官网上安装
+curl -s https://get.docker.com/ | sh 
 ```
