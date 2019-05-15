@@ -11,4 +11,6 @@ curl -s https://bootstrap.pypa.io/get-pip.py | python
 # 安装docker-compose
 pip install docker-compose
 # 这里可能会提示requests版本问题，直接忽略就好了，然后安装好启动的时候，有可能会遇到gssapi中没有一个什么方法直接安装以下组件就可以了
+yum install python-paramiko -y
+# 安装
 ```
