@@ -208,4 +208,4 @@ int main(void)
 
 关于exec族函数的两篇博客
 - [linux进程---exec族函数(execl, execlp, execle, execv, execvp, execvpe)](https://blog.csdn.net/u014530704/article/details/73848573)
-- 
+- [linux进程编程-替换进程映-exec系列函数（execl,execlp,execle,execv,execvp)使用](https://blog.csdn.net/a304672343/article/details/17120825)
