@@ -23,13 +23,9 @@ git clone https://github.com/vulhub/vulhub.git
 # 未完这个下载不知道为啥一直就卡在那里不动了，有一个一直是writing的状态
 记录一下关于使用daocloud
 - 注册DaoCloud
-
-- 在你的Linux主机上执行#docker login daocloud.io
-
-3)     输入daocloud用户名密码，显示登录成功
-
-4)     在daocloud网页上查询镜像，选择之后，点击”拉取”
-
-5)     在弹出的窗口里复制拉取镜像字符串
+- 执行docker login daocloud.io
+- 输入daocloud用户名密码，显示登录成功
+- 在daocloud网页上查询镜像，选择之后，点击”拉取”
+- 在弹出的窗口里复制拉取镜像字符串
 
 6)     在你的主机上继续执行#docker pull daocloud.io/library/python:2.7.7
