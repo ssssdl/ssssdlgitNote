@@ -18,4 +18,4 @@ docker-compose -v
 git clone https://github.com/vulhub/vulhub.git
 ```
 
-# 搭建简单测试
+# 搭建简单测试环境
