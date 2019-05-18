@@ -51,11 +51,10 @@ ResultInactive=yes
 ResultActive=yes
 
 # 将需要的用户（apache）添加到这个用户组里面
-```
-sudo usermod -a -G libvirtd apache
-```
-- 重启服务
-```
+usermod -a -G libvirtd apache
+
+# 重启服务
 service libvirtd restart
-```
+
+配置
 ``` 
