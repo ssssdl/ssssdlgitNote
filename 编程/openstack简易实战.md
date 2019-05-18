@@ -60,4 +60,6 @@ service libvirtd restart
 # 修改/etc/libvirt/qemu.conf
 vnc_listen="0.0.0.0"
 ``` 
-差不多就是这些，然后附上一
+差不多就是这些，各种权限问题一定要注意
+
+
