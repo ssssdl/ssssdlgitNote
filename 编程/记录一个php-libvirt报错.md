@@ -72,4 +72,5 @@ sudo usermod -a -G libvirtd apache
 service libvirtd restart
 ```
 # 相关连接
-- []()
+- [CentOS 7 virt-manager “authentication failed”错误及解决方法](https://blog.xiaoben.li/p/497)
+- 
