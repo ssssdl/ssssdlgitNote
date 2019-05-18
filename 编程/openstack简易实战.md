@@ -11,5 +11,6 @@ systemctl stop firewalld.service 	# 关闭防火墙
 # 更新yum源
 yum install -y qemu-kvm qemu-img qemu-kvm-tools 				#安装qemu相关组件
 yum install -y virt-install libvirt libvirt-client virt-viewer virt-manager 	#安装libvirt相关组件
-yum install -y br
+yum install -y bridge-utils		#安装网络桥接组件
+
 ``` 
