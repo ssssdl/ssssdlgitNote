@@ -58,4 +58,5 @@ usermod -a -G libvirtd apache
 service libvirtd restart
 
 # 修改/etc/libvirt/qemu.conf
+vnc_listen="0.0.0.0"
 ``` 
