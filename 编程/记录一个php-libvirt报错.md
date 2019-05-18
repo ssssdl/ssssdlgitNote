@@ -1,4 +1,4 @@
-首先这是一个apache没有操做libvirt权限的报错，我想搭建一个lamp管理
+首先这是一个apache没有操做libvirt权限的报错，我想搭建一个使用web环境管理kvm虚拟机的
 大致代码如下
 ```
 
