@@ -30,4 +30,6 @@ ln -s /usr/libexec/qemu-kvm /usr/bin/qemu-kvm
 #设置各种服务开机自启，还有http等
 systemctl enable libvirtd
 systemctl start libvirtd 
+
+#开启
 ``` 
