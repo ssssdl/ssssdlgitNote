@@ -40,18 +40,17 @@ openssl req -new -x509 -days 365 -nodes -out self.pem -keyout self.pem
 groupadd libvirt
 
 # 修改/etc/libvirt/libvirtdconf文件，添加或修改
-unix_sock_group = "libvirt",
-创建文件`/etc/polkit-1/localauthority/50-local.d/50-org.libvirtd-group-access.pkla`
-内容如下
-```
+unix_sock_group = "libvirt"
+# 创建文件/etc/polkit-1/localauthority/50-local.d/50-org.libvirtd-group-access.pkla 内容如下
+
 [libvirtd group Management Access]
 Identity=unix-group:libvirt
 Action=org.libvirt.unix.manage
 ResultAny=yes
 ResultInactive=yes
 ResultActive=yes
-```
-- 将需要的用户（apache）添加到这个用户组里面
+
+# 将需要的用户（apache）添加到这个用户组里面
 ```
 sudo usermod -a -G libvirtd apache
 ```
