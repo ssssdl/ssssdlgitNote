@@ -4,4 +4,6 @@
 # 0x01 环境搭建
 安装kvm
 ```
-lsmod | grep kvm	# 查看是否已经开启了 
+lsmod | grep kvm	# 查看是否已经开启了kvm模块，有内容输出代表开启了
+
+``` 
