@@ -131,3 +131,4 @@ vnc_listen="0.0.0.0"
 - [libvirt-php官方文档](https://libvirt.org/php/api-reference.html#libvirt_image_create)
 - [CentOS安装noVNC，以Web方式交付VNC远程连接](http://www.fdlly.com/p/2029355960.html)
 - [通过noVNC和websockify连接到QEMU/KVM](https://blog.csdn.net/LEoe_/article/details/79025798)
+- [libvirt-php-examples](https://github.com/xpmozong/libvirt-php-examples)
