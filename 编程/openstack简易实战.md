@@ -97,28 +97,27 @@ vnc_listen="0.0.0.0"
 31.	        #if(!libvirt_domain_is_active($id))  
 32.	        #    echo $_GET['sdname'].'关闭成功';  
 33.	    }  
-34.	      
-35.	    #强制关闭节点  
-36.	    if(isset($_GET['dsname'])){  
-37.	        $id = libvirt_domain_lookup_by_name($conn,strval($_GET['dsname']));  
-38.	        libvirt_domain_destroy($id);  
-39.	        if(!libvirt_domain_is_active($id))  
-40.	            echo $_GET['dsname']."关闭成功";  
-41.	    }  
-42.	    #还有很多类似的操做，可以参照https://libvirt.org/php/api-reference.html  
-43.	    # ......  
-44.	  
-45.	    # 关于在浏览器打开vnc界面  
-46.	    if(isset($_GET['vncid'])){  
-47.	        # 可以在xml定义域的时候获取vnc端口，这里假设已经获取到了  
-48.	        $VncPort = 5900;  
-49.	        # 这里其实涉及到获取kvm的ip  
-50.	        exec('./noVNC/utils/launch.sh --vnc 127.0.0.1:'.$VncPort);  
-51.	        # 需要给novnc一个启动的时间，不然会报错  
-52.	        sleep(10);  
-53.	        # 这里要获取kvm和本地的ip  
-54.	        header('Location: http://192.168.72.136:6080/vnc.html?host=192.168.72.136&port=6080');  
-55.	    }  
+34.	    #强制关闭节点  
+	    if(isset($_GET['dsname'])){  
+	        $id = libvirt_domain_lookup_by_name($conn,strval($_GET['dsname']));  
+	        libvirt_domain_destroy($id);  
+	        if(!libvirt_domain_is_active($id))  
+	            echo $_GET['dsname']."关闭成功";  
+	    }  
+	    #还有很多类似的操做，可以参照https://libvirt.org/php/api-reference.html  
+	    # ......  
+	  
+	    # 关于在浏览器打开vnc界面  
+	    if(isset($_GET['vncid'])){  
+	        # 可以在xml定义域的时候获取vnc端口，这里假设已经获取到了  
+	        $VncPort = 5900;  
+	        # 这里其实涉及到获取kvm的ip  
+	        exec('./noVNC/utils/launch.sh --vnc 127.0.0.1:'.$VncPort);  
+	        # 需要给novnc一个启动的时间，不然会报错  
+	        sleep(10);  
+	        # 这里要获取kvm和本地的ip  
+	        header('Location: http://192.168.72.136:6080/vnc.html?host=192.168.72.136&port=6080');  
+	    }  
 	    $fp = fopen($logfile,'r');  
 	    $str = fread($fd,filesize($logfile));  
 	    fclose($fp);  
