@@ -57,5 +57,5 @@ usermod -a -G libvirtd apache
 # 重启服务
 service libvirtd restart
 
-
+# 修改/etc/libvirt/qemu.conf
 ``` 
