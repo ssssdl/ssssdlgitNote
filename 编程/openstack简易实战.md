@@ -18,5 +18,6 @@ yum install -y libvirt-devel libvirt-glib-devel	#安装libvirt相关开发库
 yum install -y php-libvirt.x86_64	#安装libvirtphp相关开发库
 
 
-#安装
+#安装lamp相关组件
+# 另php-fpm
 ``` 
