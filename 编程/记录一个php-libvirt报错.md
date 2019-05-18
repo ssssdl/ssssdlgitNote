@@ -53,5 +53,5 @@
 解决办法，
 - 创建一个用于管理的用户组`groupadd libvirt`
 - 配置这个用户组可以管理libvirt 
-> 修改`/etc/libvirt/libvirtdconf`文件，添加
+> 修改`/etc/libvirt/libvirtdconf`文件，添加或修改`unix_sock`
 - 将需要的用户（apache）添加到这个用户组里面
