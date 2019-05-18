@@ -64,5 +64,66 @@ vnc_listen="0.0.0.0"
 
 # 0x02 简易代码
 ```
+1.	<?php  
+2.	    $logfile = 'test.log';  
+3.	  
+4.	    unlink($logfile);  
+5.	    if(!libvirt_logfile_set($logfile))  
+6.	        die('Cannot set the log file!!');  
+7.	      
+8.	    # 建立连接      
+9.	    $conn = libvirt_connect('qemu:///system',false);  
+10.	      
+11.	    # 获取虚拟机名称列表  
+12.	    $doms = libvirt_list_domains($conn);  
+13.	    echo '获取节点名称：<br>';  
+14.	    foreach($doms as $domname){  
+15.	        echo $domname."<br>";  
+16.	    }  
+17.	  
+18.	    # 获取节点id  
+19.	    echo '获取节点id：<br>';  
+20.	    $ids = libvirt_list_active_domain_ids($conn);  
+21.	    foreach($ids as $id){  
+22.	        echo $id.'<br>';  
+23.	    }  
+24.	  
+25.	    # 关闭节点,get传要关闭的name,部分虚拟机可能因为没有acpid而不起作用  
+26.	    if(isset($_GET['sdname'])){  
+27.	        # echo 'GET sdid';  
+28.	        $id = libvirt_domain_lookup_by_name($conn,strval($_GET['sdname']));  
+29.	        libvirt_domain_shutdown($id);  
+30.	        # 需要延时获取，虚拟机关闭需要时间  
+31.	        #if(!libvirt_domain_is_active($id))  
+32.	        #    echo $_GET['sdname'].'关闭成功';  
+33.	    }  
+34.	      
+35.	    #强制关闭节点  
+36.	    if(isset($_GET['dsname'])){  
+37.	        $id = libvirt_domain_lookup_by_name($conn,strval($_GET['dsname']));  
+38.	        libvirt_domain_destroy($id);  
+39.	        if(!libvirt_domain_is_active($id))  
+40.	            echo $_GET['dsname']."关闭成功";  
+41.	    }  
+42.	    #还有很多类似的操做，可以参照https://libvirt.org/php/api-reference.html  
+43.	    # ......  
+44.	  
+45.	    # 关于在浏览器打开vnc界面  
+46.	    if(isset($_GET['vncid'])){  
+47.	        # 可以在xml定义域的时候获取vnc端口，这里假设已经获取到了  
+48.	        $VncPort = 5900;  
+49.	        # 这里其实涉及到获取kvm的ip  
+50.	        exec('./noVNC/utils/launch.sh --vnc 127.0.0.1:'.$VncPort);  
+51.	        # 需要给novnc一个启动的时间，不然会报错  
+52.	        sleep(10);  
+53.	        # 这里要获取kvm和本地的ip  
+54.	        header('Location: http://192.168.72.136:6080/vnc.html?host=192.168.72.136&port=6080');  
+55.	    }  
+	    $fp = fopen($logfile,'r');  
+	    $str = fread($fd,filesize($logfile));  
+	    fclose($fp);  
+	  
+	    echo $str;  
+	?>  
 
 ```
