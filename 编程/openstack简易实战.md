@@ -129,4 +129,4 @@ vnc_listen="0.0.0.0"
 ```
 # 0x03 相关连接
 - [libvirt-php官方文档](https://libvirt.org/php/api-reference.html#libvirt_image_create)
-- [CentOS安装noVNC，以Web方式交付VNC远程连接]()
+- [CentOS安装noVNC，以Web方式交付VNC远程连接](http://www.fdlly.com/p/2029355960.html)
