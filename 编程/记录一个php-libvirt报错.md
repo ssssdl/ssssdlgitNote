@@ -54,5 +54,13 @@
 - 创建一个用于管理的用户组`groupadd libvirt`
 - 配置这个用户组可以管理libvirt 
 > 修改`/etc/libvirt/libvirtdconf`文件，添加或修改`unix_sock_group = "libvirt"`,创建文件`/etc/polkit-1/localauthority/50-local.d/50-org.libvirtd-group-access.pkla`
-
+内容如下
+```
+[libvirtd group Management Access]
+Identity=unix-group:libvirt
+Action=org.libvirt.unix.manage
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
+```
 - 将需要的用户（apache）添加到这个用户组里面
