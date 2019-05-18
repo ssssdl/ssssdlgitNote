@@ -14,5 +14,6 @@ yum install -y virt-install libvirt libvirt-client virt-viewer virt-manager 	#�
 yum install -y bridge-utils		#安装网络桥接组件
 yum install -y tigervnc tigervnc-server #安装vnc
 yum install –y gcc-c++ gcc glibc  	#安装gcc
-yum install -y libvirt-devel libvirt-glib-devel	#安装libvirt相关
+yum install -y libvirt-devel libvirt-glib-devel	#安装libvirt相关开发库
+
 ``` 
