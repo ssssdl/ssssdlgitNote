@@ -64,18 +64,18 @@ vnc_listen="0.0.0.0"
 
 # 0x02 简易代码
 ```
-1.	<?php  
-2.	    $logfile = 'test.log';  
-3.	  
-4.	    unlink($logfile);  
-5.	    if(!libvirt_logfile_set($logfile))  
-6.	        die('Cannot set the log file!!');  
-7.	      
-8.	    # 建立连接      
-9.	    $conn = libvirt_connect('qemu:///system',false);  
-10.	      
-11.	    # 获取虚拟机名称列表  
-.	    $doms = libvirt_list_domains($conn);  
+	<?php  
+	    $logfile = 'test.log';  
+	  
+	    unlink($logfile);  
+	    if(!libvirt_logfile_set($logfile))  
+	        die('Cannot set the log file!!');  
+	      
+	    # 建立连接      
+	    $conn = libvirt_connect('qemu:///system',false);  
+	      
+	    # 获取虚拟机名称列表  
+	    $doms = libvirt_list_domains($conn);  
 	    echo '获取节点名称：<br>';  
 	    foreach($doms as $domname){  
 	        echo $domname."<br>";  
@@ -127,3 +127,4 @@ vnc_listen="0.0.0.0"
 	?>  
 
 ```
+# 
