@@ -9,5 +9,5 @@ systemctl stop firewalld.service 	# 关闭防火墙
 # 关闭selinux 这两步主要是防止出一些其他的错误
 
 # 更新yum源
-
+yum install -y qemu-kvm qemu-img qemu-kvm-tools 	#安装
 ``` 
