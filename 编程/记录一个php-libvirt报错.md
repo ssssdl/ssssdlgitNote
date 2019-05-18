@@ -64,3 +64,7 @@ ResultInactive=yes
 ResultActive=yes
 ```
 - 将需要的用户（apache）添加到这个用户组里面
+```
+sudo usermod -a -G libvirtd apache
+```
+- ch
