@@ -75,29 +75,30 @@ vnc_listen="0.0.0.0"
 9.	    $conn = libvirt_connect('qemu:///system',false);  
 10.	      
 11.	    # 获取虚拟机名称列表  
-12.	    $doms = libvirt_list_domains($conn);  
-13.	    echo '获取节点名称：<br>';  
-14.	    foreach($doms as $domname){  
-15.	        echo $domname."<br>";  
-16.	    }  
-17.	  
-18.	    # 获取节点id  
-19.	    echo '获取节点id：<br>';  
-20.	    $ids = libvirt_list_active_domain_ids($conn);  
-21.	    foreach($ids as $id){  
-22.	        echo $id.'<br>';  
-23.	    }  
-24.	  
-25.	    # 关闭节点,get传要关闭的name,部分虚拟机可能因为没有acpid而不起作用  
-26.	    if(isset($_GET['sdname'])){  
-27.	        # echo 'GET sdid';  
-28.	        $id = libvirt_domain_lookup_by_name($conn,strval($_GET['sdname']));  
-29.	        libvirt_domain_shutdown($id);  
-30.	        # 需要延时获取，虚拟机关闭需要时间  
-31.	        #if(!libvirt_domain_is_active($id))  
-32.	        #    echo $_GET['sdname'].'关闭成功';  
-33.	    }  
-34.	    #强制关闭节点  
+.	    $doms = libvirt_list_domains($conn);  
+	    echo '获取节点名称：<br>';  
+	    foreach($doms as $domname){  
+	        echo $domname."<br>";  
+	    }  
+	  
+	    # 获取节点id  
+	    echo '获取节点id：<br>';  
+	    $ids = libvirt_list_active_domain_ids($conn);  
+	    foreach($ids as $id){  
+	        echo $id.'<br>';  
+	    }  
+	  
+	    # 关闭节点,get传要关闭的name,部分虚拟机可能因为没有acpid而不起作用  
+	    if(isset($_GET['sdname'])){  
+	        # echo 'GET sdid';  
+	        $id = libvirt_domain_lookup_by_name($conn,strval($_GET['sdname']));  
+	        libvirt_domain_shutdown($id);  
+	        # 需要延时获取，虚拟机关闭需要时间  
+	        #if(!libvirt_domain_is_active($id))  
+	        #    echo $_GET['sdname'].'关闭成功';  
+	    }  
+	      
+	    #强制关闭节点  
 	    if(isset($_GET['dsname'])){  
 	        $id = libvirt_domain_lookup_by_name($conn,strval($_GET['dsname']));  
 	        libvirt_domain_destroy($id);  
