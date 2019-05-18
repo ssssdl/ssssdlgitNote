@@ -6,5 +6,7 @@
 ```
 lsmod | grep kvm			# 查看是否已经开启了kvm模块，有内容输出代表开启了
 systemctl stop firewalld.service 	# 关闭防火墙
-# 关闭selinux 这两步主要是防止出一些其他的
+# 关闭selinux 这两步主要是防止出一些其他的错误
+
+# 更新
 ``` 
