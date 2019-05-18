@@ -12,5 +12,7 @@ systemctl stop firewalld.service 	# 关闭防火墙
 yum install -y qemu-kvm qemu-img qemu-kvm-tools 				#安装qemu相关组件
 yum install -y virt-install libvirt libvirt-client virt-viewer virt-manager 	#安装libvirt相关组件
 yum install -y bridge-utils		#安装网络桥接组件
-yum install -y tigervnc tigervnc-server #
+yum install -y tigervnc tigervnc-server #安装vnc
+yum install –y gcc-c++ gcc glibc  	#安装gcc
+
 ``` 
