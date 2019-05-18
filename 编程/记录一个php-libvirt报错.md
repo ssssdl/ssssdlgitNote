@@ -2,8 +2,26 @@
 大致代码如下
 ```
 
+<?php
+    $logfile = 'test.log';
 
+    unlink($logfile);
+    if(!libvirt_logfile_set($logfile))
+        die('Cannot set the log file!!');
+        
+    $conn = libvirt_connect('qemu:///system',false);
+    # 获取虚拟机名称列表
+    $doms = libvirt_list_domains($conn);
+    print_r($doms);
+    $ids = libvirt_list_active_domain_ids($conn);
+    print_r($ids);
+    
+    $fp = fopen($logfile,'r');
+    $str = fread($fd,filesize($logfile));
+    fclose($fp);
 
+    echo $str;
+?>
 
 ```
 
@@ -31,3 +49,5 @@
 [Sat May 18 16:12:39.424529 2019] [:error] [pid 5216] [client 192.168.72.1:20830] PHP Warning:  fread() expects parameter 1 to be resource, null given in /var/www/html/libvirt/list.php on line 16
 
 ```
+
+解决办法
