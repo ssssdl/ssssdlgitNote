@@ -31,5 +31,9 @@ ln -s /usr/libexec/qemu-kvm /usr/bin/qemu-kvm
 systemctl enable libvirtd
 systemctl start libvirtd 
 
-#开启
+#下载配置 noVnc
+git clone git://github.com/kanaka/noVNC
+cd ./noVNC/utils/ 
+openssl req -new -x509 -days 365 -nodes -out self.pem -keyout self.pem
+
 ``` 
