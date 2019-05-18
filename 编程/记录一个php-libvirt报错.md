@@ -73,4 +73,5 @@ service libvirtd restart
 ```
 # 相关连接
 - [CentOS 7 virt-manager “authentication failed”错误及解决方法](https://blog.xiaoben.li/p/497)
+- [authentication unavailable: no polkit agent available to authenticate action 'org.libvirt.unix.manage'的问题解决](https://www.cnblogs.com/EasonJim/p/9596012.html)
 - 
