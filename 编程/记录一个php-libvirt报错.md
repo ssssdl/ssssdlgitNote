@@ -67,4 +67,7 @@ ResultActive=yes
 ```
 sudo usermod -a -G libvirtd apache
 ```
-- ch
+- 重启服务
+```
+service libvirtd restart
+```
