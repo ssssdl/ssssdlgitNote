@@ -19,5 +19,7 @@ yum install -y php-libvirt.x86_64	#安装libvirtphp相关开发库
 
 
 #安装lamp相关组件
-yum php-fpm
+
+#安装 php-fpm （可能用的到）
+yum install -y php-fpm
 ``` 
