@@ -5,4 +5,4 @@ CVE-2017-10271
 - 漏洞检测：访问http://host:7001/wls-wsat/CoordinatorPortType返回如下，则可能存在此漏洞
 ![title](https://i.loli.net/2019/05/20/5ce24e619807844967.jpg)
 
-# 利用
+# 
