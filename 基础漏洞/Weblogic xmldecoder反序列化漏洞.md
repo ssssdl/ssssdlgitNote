@@ -34,3 +34,4 @@ Content-Length: 756
 </soapenv:Envelope>
 ```
 写入的路径是~/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/_WL_internal/wls-wsat/54p17w/war/test.txt
+访问验证的路径是
