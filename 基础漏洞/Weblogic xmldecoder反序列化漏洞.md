@@ -33,3 +33,4 @@ Content-Length: 756
       <soapenv:Body/>
 </soapenv:Envelope>
 ```
+写入的路径是~/Oracle/Middleware/user_projects/domains/base_domain/
