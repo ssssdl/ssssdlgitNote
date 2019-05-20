@@ -17,7 +17,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Upgrade-Insecure-Requests: 1
 Content-Type: text/xml
-Content-Length: 756
+Content-Length: 748
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
       <soapenv:Header>
@@ -34,4 +34,4 @@ Content-Length: 756
 </soapenv:Envelope>
 ```
 写入的路径是~/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/_WL_internal/wls-wsat/54p17w/war/test.txt
-访问验证的路径是
+访问验证的路径是/wls-wsat/test.txt
