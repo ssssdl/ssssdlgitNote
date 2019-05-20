@@ -6,7 +6,7 @@ CVE-2017-10271
 ![title](https://i.loli.net/2019/05/20/5ce24e619807844967.jpg)
 
 # 验证环境搭建
-使用vulhub的
+使用vulhub的cve-2018-26
 
 # POC
 通过写入一个文件的形式进行简单验证
