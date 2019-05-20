@@ -2,4 +2,4 @@
 CVE-2017-10271
 - 受影响版本：10.3.6.0.0，12.1.3.0.0，12.2.1.1.0，12.2.1.2.0
 - 漏洞描述：WebLogic WLS组件中存在CVE-2017-10271远程代码执行漏洞，可以构造请求对运行WebLogic中间件的主机进行攻击，近期发现此漏洞的利用方式为传播挖矿程序。
-- 漏洞检测：访问http://host:7001/wls-wsat/CoordinatorPortType
+- 漏洞检测：访问http://host:7001/wls-wsat/CoordinatorPortType返回如下
