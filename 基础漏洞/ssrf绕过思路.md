@@ -7,4 +7,4 @@
 - url短网址，但是有一些短网址不支持使用ip生成，
 - 利用其他相关协议
 - DNS Rebinding
-	> 原理
+	> 有时间再看 https://www.freebuf.com/articles/web/135342.html
