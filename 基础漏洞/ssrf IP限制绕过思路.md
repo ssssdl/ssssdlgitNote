@@ -32,4 +32,4 @@ header("Location: $scheme://$ip:$port/$data");
 # 相关连接
 - [CSDN DNS Rebinding技术绕过SSRF/代理IP限制](https://blog.csdn.net/u011721501/article/details/54667714)
 - [FreeBuf SSRF漏洞中绕过IP限制的几种方法总结](https://www.freebuf.com/articles/web/135342.html)
-- [CSND](https://blog.csdn.net/Fly_hps/article/details/84392954)
+- [CSDN 【漏洞学习——SSRF】360某处ssrf漏洞可探测内网信息](https://blog.csdn.net/Fly_hps/article/details/84392954)
