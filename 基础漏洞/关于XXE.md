@@ -6,3 +6,10 @@ XXE全称是——XML External Entity,也就是XML外部实体注入攻击.漏�
 
 ## 基础知识
 - XML是一种标记语言，被无数软件项目采用
+
+
+相关连接
+https://xz.aliyun.com/t/3357
+https://www.jianshu.com/p/77f2181587a4
+https://blog.csdn.net/xiaoyi52/article/details/82660471
+https://www.freebuf.com/articles/web/177979.html
