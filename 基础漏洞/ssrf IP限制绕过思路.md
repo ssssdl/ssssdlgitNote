@@ -13,7 +13,7 @@ $scheme = $_GET['s'];
 $data = $_GET['data'];
 header("Location: $scheme://$ip:$port/$data");
 ?>
-	```
+```
 - url短网址，但是有一些短网址不支持使用ip生成，[tinyurl支持](https://tinyurl.com/)，
 - 使用http://xip.io,可以将192.168.0.1.xip.io解析到192.168.0.1，然后可以配合url短网址绕过
 - 利用其他相关协议
