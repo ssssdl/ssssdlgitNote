@@ -2,4 +2,4 @@
 
 ## 简介
 XXE全称是——XML External Entity,也就是XML外部实体注入攻击.漏洞是在对不安全的外部实体数据进行处理时引发的安全问题。一个比较经典的例子
-
+![title](https://i.loli.net/2019/07/12/5d280d435dafa21696.png)
