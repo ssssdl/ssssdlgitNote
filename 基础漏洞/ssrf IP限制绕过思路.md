@@ -13,4 +13,4 @@
 	- 然后这个的一些问题：DNS缓存，有的DNS服务器即使TTL设置为0也会缓存。
 
 - 类似的一个绕过方法，ip双重绑定绕过：
-	> php获取IP的时候使用gethoostname或者dns_get_record这两个函数，如果一个域名绑定了两个IP,dns_get_record就会返回两个，gethostname就会随机返回一个，
+	> php获取IP的时候使用gethoostname或者dns_get_record这两个函数，如果一个域名绑定了两个IP,dns_get_record就会返回两个，gethostname就会随机返回一个，但是curl访问域名的时候会尝试访问每一个，如果外网
