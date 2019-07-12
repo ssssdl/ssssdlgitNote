@@ -18,4 +18,6 @@
 
 
 
-# 
+# 相关连接
+- [CSD](https://blog.csdn.net/u011721501/article/details/54667714)
+- [freebuf SSRF漏洞中绕过IP限制的几种方法总结](https://www.freebuf.com/articles/web/135342.html)
