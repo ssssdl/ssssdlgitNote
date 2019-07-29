@@ -26,4 +26,5 @@ http://1a23009a9c9e959d9c70932bb9f634eb.vsplate.me/index.php?target=db_sql.php%2
 ```
 
 
-# 
+# CVE-2018-19968
+
