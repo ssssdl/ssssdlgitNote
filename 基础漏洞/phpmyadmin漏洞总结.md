@@ -44,4 +44,4 @@ INSERT INTO `pma__column_info`SELECT '1', 'foo', 'bar', 'baz', 'plop',
 
 
 其他一些低版本的https://www.cnblogs.com/xishaonian/p/7627125.html
-
+还可以看一下exploit-db
