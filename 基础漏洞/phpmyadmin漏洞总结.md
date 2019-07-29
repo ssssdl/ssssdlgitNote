@@ -42,3 +42,5 @@ INSERT INTO `pma__column_info`SELECT '1', 'foo', 'bar', 'baz', 'plop',
 /tbl_replace.php?db=foo&table=bar&where_clause=1=1&fields_name[multi_edit][][]=baz&clause_is_unique=1
 ```
 
+
+其他一些低版本的https://www.cnblogs.com/xishaonian/p/7627125.html
