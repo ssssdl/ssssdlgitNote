@@ -1,5 +1,5 @@
 --- 
-为毕设学一门框架
+为毕设学一门框架，顺序写的有点乱，但是主要是一些配置，顺序也不是也别重要，能跑起来就行，建议多联系一下
 ---
 
 > 记录一个小知识java中单引号引用的是char类型，智能有一个字符，双引号的String类型(感觉我就想没学过java一样)  
@@ -160,3 +160,12 @@ public class helloController {
 
 # 创建jsp界面
 然后在WEB-INF/pages/下创建hello.jsp就可以了
+
+
+# 总结一下
+SpringMVC的调用过程如下:
+- 首先用户发起请求，如果请求的是webapp目录下jsp的就直接返回，如果不是交给web.xml
+- web.xml里面因为配置了/下的请求全部交给dispatcherServlet，
+- dispatcherServlet就会到spring创建容器时扫描创建的对象中（springmvc配置文件）找到请求的路径，并调用对应的方法，
+- 对应的方法return一个字符串，这个字符串时返回的jsp视图的文件名，
+- dispatcherServlet就会到视图解析器org.springframework.web.servlet.view.InternalResourceViewResolver中取寻找对应的对应的jsp视图文件，并返回给用户
