@@ -1,8 +1,15 @@
-![title](https://i.loli.net/2019/04/26/5cc2505674b77.jpg)
+# emmmm
+从今天开始换一个新的笔记软件，就不这样写笔记了
+  
+  
+   
+感觉这样笔记都放在GitHub上也不太好吧
+  
 
-## gitbook不知道咋了就超出了限制，先用着这个吧然后把gitbook的在线文档转移一下 
-大致过程就是再GitHub上建一个gitbook的存储库 然后打开自己的笔记INTEGRATIONS到GitHub上，就完事了
 
 
 
-你可一定要加油啊
+如果季节更替 树叶落地银色满际
+
+
+2019/08/09  ssssdl
